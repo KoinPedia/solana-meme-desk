@@ -10,6 +10,7 @@ from pathlib import Path
 import requests
 
 BASE = Path(__file__).parent
+sys.path.insert(0, str(BASE))
 WATCHLIST = BASE / "watchlist.json"
 GECKO_NEW = "https://api.geckoterminal.com/api/v2/networks/solana/new_pools"
 GECKO_POOL = "https://api.geckoterminal.com/api/v2/networks/solana/pools/{pool}?include=base_token,quote_token,dex"
@@ -18,7 +19,85 @@ DEX_API = "https://api.dexscreener.com/latest/dex/tokens/{mint}"
 RUGCHECK_API = "https://api.rugcheck.xyz/v1/tokens/{mint}/report"
 H = {"Accept": "application/json", "User-Agent": "Mozilla/5.0"}
 
+# Helius RPC (from .env HELIUS_RPC_URL, fallback public) for on-chain checks:
+# token supply + mint/freeze authority cross-check against RugCheck report.
+import rpc_config
+from rpc_config import get_mint_authorities, get_token_supply, get_account_info, rpc_call, is_helius
+
 LIMIT = int(os.environ.get("PUMP_SCAN_LIMIT", "20"))
+
+BURN_ADDRESS = "11111111111111111111111111111111"
+TOKEN_PROGRAM = "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+
+def fetch_onchain(mint):
+    """On-chain rug checks via Helius RPC (fail-soft: returns {} on RPC error).
+
+    Checks wired:
+      1. getAccountInfo on mint -> mintAuthority/freezeAuthority from parsed info.
+         (Spec wording 'owner must be null' refers to the parsed mintAuthority
+         field being null, i.e. revoked; the account owner is the token program.)
+      2. getTokenSupply on mint -> supply decimals/uiAmount.
+      3. LP/burn: tries getTokenAccountsByOwner on the burn address for this mint
+         (light, dataSlice-free token account list). LP mint is not known from
+         the pool feed, so the authoritative LP-locked/unlocked signal stays
+         with the RugCheck API (see fetch_rugcheck risks). getProgramAccounts
+         on the token program is NOT used: too heavy / rate-limited on free tier.
+    """
+    out = {"source": "Helius" if is_helius() else "public RPC"}
+    try:
+        auth = get_mint_authorities(mint, timeout=8)
+        supply = get_token_supply(mint, timeout=8)
+        if auth is not None:
+            mint_auth, freeze_auth = auth
+            out["mintAuthority"] = mint_auth
+            out["freezeAuthority"] = freeze_auth
+            out["mintRevoked"] = mint_auth is None
+            out["freezeRevoked"] = freeze_auth is None
+        if supply is not None:
+            # supply is the unwrapped value dict {amount, decimals, uiAmount, uiAmountString}
+            if isinstance(supply, dict):
+                out["supply"] = supply.get("uiAmountString")
+                out["supplyRaw"] = supply.get("amount")
+                out["decimals"] = supply.get("decimals")
+        # LP/burn attempt: token accounts of burn address holding this mint
+        # (proves some supply was burned; NOT proof LP is burned, LP mint differs)
+        # NOTE: Helius/Pub RPC rejects {mint} filter with encoding jsonParsed on
+        # getTokenAccountsByOwner (-32602), so we list by programId and filter
+        # client-side. This can be 8k+ accounts on the dead burn address; kept
+        # only as burn evidence. LP lock status stays with RugCheck API.
+        try:
+            burned = rpc_call(
+                "getTokenAccountsByOwner",
+                [BURN_ADDRESS, {"programId": TOKEN_PROGRAM}, {"encoding": "jsonParsed", "commitment": "confirmed"}],
+                timeout=10,
+            )
+            vals = rpc_config._value_of(burned) or []
+            hits = 0
+            for v in vals:
+                info = ((v.get("account") or {}).get("data") or {}).get("parsed", {}).get("info") or {}
+                if info.get("mint") == mint:
+                    hits += 1
+            out["burnedTokenAccounts"] = hits
+        except Exception:
+            out["burnedTokenAccounts"] = None
+            out["lpSource"] = "RugCheck API fallback"
+    except Exception:
+        return {}
+    return out
+
+def fetch_lp_burn_check(mint):
+    """LP/burn check: tries Helius getTokenAccountsByOwner on burn address.
+
+    Returns dict with burn evidence + explicit fallback note. LP lock status
+    itself comes from RugCheck risks (LP unlocked), not from this call,
+    because the LP mint is not in the scanner feed.
+    """
+    onchain = fetch_onchain(mint)
+    return {
+        "burnedTokenAccounts": onchain.get("burnedTokenAccounts"),
+        "lpSource": onchain.get("lpSource", "RugCheck API fallback"),
+        "note": "getProgramAccounts skipped (heavy/rate-limited); RugCheck API is LP source",
+    }
 
 def slug(mint):
     return "solana_" + mint
@@ -107,6 +186,24 @@ def fetch_dex(mint):
         return {}
 
 def fetch_rugcheck(mint):
+    """RugCheck report for a mint.
+
+    Primary: rugcheck_api.get_report() -> /v1/tokens/{mint}/report/summary
+    (score_normalised, risks, lpLockedPct). Fallback: legacy
+    /v1/tokens/{mint}/report scraping path already inside rugcheck_api.
+    Returns the normalized dict; {} if both paths fail.
+
+    Authoritative mint/freeze authority stays Helius (rpc_config) in the
+    rug check stage; these values are only for scoring/display.
+    """
+    try:
+        from rugcheck_api import get_report as _api_report
+        out = _api_report(mint, timeout=10)
+        if out:
+            return out
+    except Exception:
+        pass
+    # Legacy direct /report call as last resort (pre-API scraping path)
     try:
         r = requests.get(RUGCHECK_API.format(mint=mint), headers=H, timeout=10)
         j = r.json()
@@ -115,6 +212,7 @@ def fetch_rugcheck(mint):
         return {
             "score_normalised": j.get("score_normalised"),
             "risks": [x.get("name") for x in (j.get("risks") or [])],
+            "lpLockedPct": j.get("lpLockedPct"),
             "totalHolders": j.get("totalHolders"),
             "mintAuthority": token.get("mintAuthority"),
             "freezeAuthority": token.get("freezeAuthority"),
@@ -130,8 +228,11 @@ def fetch_rugcheck(mint):
     except Exception:
         return {}
 
-def risk_score(pool_attrs, base, dex, rug):
-    """0-100 higher=riskier. Informational only, matches installed safety-check scale."""
+def risk_score(pool_attrs, base, dex, rug, onchain=None):
+    """0-100 higher=riskier. Informational only, matches installed safety-check scale.
+    onchain: optional fetch_onchain() dict; its mint/freeze authority reading is
+    authoritative and overrides RugCheck when present (cross-check flags drift)."""
+    onchain = onchain or {}
     score = 50
     flags, positives = [], []
 
@@ -150,16 +251,34 @@ def risk_score(pool_attrs, base, dex, rug):
     else:
         positives.append(f"liquidity ${liq:,.0f}")
 
-    # authorities from rugcheck
-    if rug.get("mintAuthority") is None and rug:
-        positives.append("mint revoked")
-    elif rug.get("mintAuthority"):
-        flags.append("mint authority active"); score += 20
+    # authorities: on-chain (Helius) wins over RugCheck when present
+    oc_mint = onchain.get("mintAuthority", "__missing__")
+    oc_freeze = onchain.get("freezeAuthority", "__missing__")
+    if oc_mint != "__missing__":
+        if oc_mint is None:
+            positives.append("mint revoked (on-chain Helius)")
+        else:
+            flags.append("mint authority active (on-chain Helius)"); score += 20
+        if rug.get("mintAuthority") is not None and rug.get("mintAuthority") != oc_mint:
+            flags.append("mint authority drift: Helius vs RugCheck"); score += 10
+    else:
+        if rug.get("mintAuthority") is None and rug:
+            positives.append("mint revoked")
+        elif rug.get("mintAuthority"):
+            flags.append("mint authority active"); score += 20
 
-    if rug.get("freezeAuthority") is None and rug:
-        positives.append("freeze revoked")
-    elif rug.get("freezeAuthority"):
-        flags.append("freeze authority active"); score += 20
+    if oc_freeze != "__missing__":
+        if oc_freeze is None:
+            positives.append("freeze revoked (on-chain Helius)")
+        else:
+            flags.append("freeze authority active (on-chain Helius)"); score += 20
+        if rug.get("freezeAuthority") is not None and rug.get("freezeAuthority") != oc_freeze:
+            flags.append("freeze authority drift: Helius vs RugCheck"); score += 10
+    else:
+        if rug.get("freezeAuthority") is None and rug:
+            positives.append("freeze revoked")
+        elif rug.get("freezeAuthority"):
+            flags.append("freeze authority active"); score += 20
 
     # token-2022 dangers
     for k, label in (("hasTransferHook", "transfer hook"), ("hasPermanentDelegate", "permanent delegate"),
@@ -232,7 +351,8 @@ def main():
 
         dex = fetch_dex(mint)
         rug = fetch_rugcheck(mint)
-        rs = risk_score(attrs, {}, dex, rug)
+        onchain = fetch_onchain(mint)
+        rs = risk_score(attrs, {}, dex, rug, onchain)
 
         entry = {
             "name": attrs.get("name"),
@@ -250,6 +370,9 @@ def main():
             "totalHolders": rug.get("totalHolders"),
             "mintAuthority": rug.get("mintAuthority"),
             "freezeAuthority": rug.get("freezeAuthority"),
+            "onchain": onchain or None,
+            "tokenSupply": (onchain or {}).get("supply"),
+            "lpBurn": fetch_lp_burn_check(mint) if False else None,  # avoid double RPC; burn via onchain.burnedTokenAccounts
             "rugcheck": rug,
             "safetyScore": rs["score"],
             "verdict": rs["verdict"],

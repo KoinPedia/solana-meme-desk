@@ -183,11 +183,29 @@ def rugcheck(cand):
     rug = cand["rug"] or {}
     kills = []
     evidence = {}
-    # mint authority: rugcheck returns null if revoked
-    ma = rug.get("mintAuthority")
-    fa = rug.get("freezeAuthority")
+    # Helius on-chain mint/freeze authorities are AUTHORITATIVE. RugCheck
+    # supplies score_normalised, risks[] and lpLockedPct from the API only.
+    ma, fa = None, None
+    authority_source = "rugcheck"
+    try:
+        import rpc_config
+        auth = rpc_config.get_mint_authorities(mint, timeout=8)
+        if auth is not None:
+            ma, fa = auth
+            authority_source = "helius_onchain"
+    except Exception:
+        pass
+    if authority_source == "rugcheck":
+        ma = rug.get("mintAuthority")
+        fa = rug.get("freezeAuthority")
     evidence["mint_authority"] = ma
     evidence["freeze_authority"] = fa
+    evidence["authority_source"] = authority_source
+    evidence["rugcheck_source"] = rug.get("_source", "unknown")
+    evidence["rugcheck_auth"] = rug.get("_auth_mode", "unknown")
+    evidence["rugcheck_score"] = rug.get("score_normalised")
+    evidence["rugcheck_score_raw"] = rug.get("score")
+    evidence["lpLockedPct"] = rug.get("lpLockedPct")
     if ma:
         kills.append("mint authority active")
     if fa:

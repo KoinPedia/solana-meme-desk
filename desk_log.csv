@@ -983,3 +983,297 @@ timestamp,agent,event,mint,detail
 2026-11-19T07:52:26Z,Scanner,floor_drop,5BaKc3AVvpyxQwWNe5GN7WPdhNMjN4xtEzVtTkWCpump,"liq=$3,311 holders=10 vol24=$2,161"
 2026-11-19T07:52:26Z,Coordinator,cycle_end,,open fills this cycle: 0
 2026-11-19T07:52:26Z,Coordinator,sleep,,900s
+2026-11-19T08:07:26Z,Coordinator,cycle_start,,cycle=40 mode=paper capital=$500.00
+2026-11-19T08:07:26Z,Scanner,scan_start,,limit=20
+2026-11-19T08:07:28Z,Scanner,floor_drop,GAEb2SBfJDgfyp1Pk3UK3st69tAd3HRppxdQ5BdLpump,"liq=$2,760 holders=5 vol24=$34"
+2026-11-19T08:07:29Z,Scanner,floor_drop,5M5DCZndYnxuK4Bce18QvadLS9giTEz82Kv7n3Ebpump,"liq=$7,845 holders=9 vol24=$471"
+2026-11-19T08:07:29Z,Scanner,floor_drop,5YZ9KdpePPc3MVCFxqcqMdNMMY6Qy1s97ciH3A1Tpump,"liq=$1,161 holders=3 vol24=$56"
+2026-11-19T08:07:29Z,Scanner,floor_drop,5b7ZBWzeHvNRXq8ooNbXas8xTJAnCAbpUFwyXEmTpump,"liq=$1,417 holders=2 vol24=$49"
+2026-11-19T08:07:30Z,Scanner,floor_drop,FBsgr6BpjfDXZnuFsG8brDf8ptNu2zdzJ8618sQppump,"liq=$1,712 holders=3 vol24=$56"
+2026-11-19T08:07:32Z,Scanner,floor_drop,BTSnCEREdDmt5kTLiAFPGzWwWHCN7TkVZjS4vdinpump,"liq=$1,682 holders=4 vol24=$19"
+2026-11-19T08:07:33Z,Scanner,candidate_pass,93Ba31mAHqBMp1mLHKGTpJ4kSA9uJ49EGMYS2ZXG4AwJ,"liq=$29,464 holders=297 vol24=$90,119"
+2026-11-19T08:07:33Z,Scanner,floor_drop,7HKB4EUJJn2hr69QLsAUAXroUmLfLEZq6S8pVkLULiQM,"liq=$12,725 holders=48 vol24=$3,494"
+2026-11-19T08:07:33Z,Scanner,floor_drop,5Dd7FQvj2PiQ6zD1bTymLUtjwwjQsRH9z4dAGH2qpump,liq=$3 holders=29 vol24=$46
+2026-11-19T08:07:34Z,Scanner,floor_drop,3L299spoByEURQrycKooQmk2Zr5wPcD2MKpxNGhbpump,liq=$537 holders=5 vol24=$130
+2026-11-19T08:07:34Z,Scanner,floor_drop,7j5x6JdHJGrisz3Bq3SPuGzsmfdn52X4wSj9mmHfpump,"liq=$2,076 holders=3 vol24=$3,563"
+2026-11-19T08:07:34Z,Scanner,floor_drop,AmJxweUktQh7YipjVZkvJmpXyk6GKuFoEu8xhZYvpump,"liq=$1,677 holders=3 vol24=$28"
+2026-11-19T08:07:35Z,Scanner,floor_drop,J8ZTnEUGEirhRWSmRXYm3ma8TVK6tjLVwrnfSApNpump,"liq=$1,767 holders=5 vol24=$489"
+2026-11-19T08:07:35Z,Scanner,floor_drop,36Jz4ensy84j8QyACAMTdGTyU8KSwMf5SHhSWgHPpump,"liq=$1,739 holders=3 vol24=$122"
+2026-11-19T08:07:36Z,Scanner,floor_drop,3oLZXzrYHqT8qfbNBASQc9qoW4xwekwANhYwPLWMpump,liq=$327 holders=6 vol24=$615
+2026-11-19T08:07:38Z,Scanner,floor_drop,ADCiU1H2V1UX6KYjSQ8V2jYJJ9q2AiNU7yrUvu1u46RH,"liq=$2,089 holders=3 vol24=$0"
+2026-11-19T08:07:38Z,Scanner,candidate_pass,HSxPCqF25pReMJNqTCe5e5Gx35hehDr7PWQcYxhYFwom,"liq=$30,046 holders=379 vol24=$94,157"
+2026-11-19T08:07:39Z,Scanner,candidate_pass,AgQL97NS3eNyVC6HBkMi5MFUKi9io4zZXkURLRzbCNUU,"liq=$17,806 holders=262 vol24=$72,319"
+2026-11-19T08:07:40Z,Scanner,floor_drop,3faLwq3tFQoDy32Sed5sv5knpw446UnR1RXqdGZBpump,liq=$194 holders=6 vol24=$239
+2026-11-19T08:07:42Z,Scanner,floor_drop,4Gyijxrd26G72ePCe4hjdeuo8YXtga1khxFx4PTPpump,"liq=$1,662 holders=1 vol24=$4"
+2026-11-19T08:07:42Z,RugCheck,RUGGABLE_DROP,93Ba31mAHqBMp1mLHKGTpJ4kSA9uJ49EGMYS2ZXG4AwJ,top10 93.2% > 30%; LP unlocked
+2026-11-19T08:07:42Z,RugCheck,RUGGABLE_DROP,HSxPCqF25pReMJNqTCe5e5Gx35hehDr7PWQcYxhYFwom,top10 95.9% > 30%; LP unlocked
+2026-11-19T08:07:42Z,RugCheck,RUGGABLE_DROP,AgQL97NS3eNyVC6HBkMi5MFUKi9io4zZXkURLRzbCNUU,top10 92.7% > 30%; LP unlocked
+2026-11-19T08:07:42Z,Coordinator,cycle_end,,open fills this cycle: 0
+2026-11-19T08:07:42Z,Coordinator,sleep,,900s
+2026-11-19T08:22:42Z,Coordinator,cycle_start,,cycle=41 mode=paper capital=$500.00
+2026-11-19T08:22:42Z,Scanner,scan_start,,limit=20
+2026-11-19T08:22:42Z,Scanner,floor_drop,FZ2hbeUAw89WUB5wJRvpTd1JDosGnirVRBPSy5RKGFis,"liq=$33,852 holders=215 vol24=$9,246"
+2026-11-19T08:22:43Z,Scanner,floor_drop,3J1mva6byca7zqJKfdpk4JhtmniiVWGYP8nrjYRMpump,"liq=$3,316 holders=6 vol24=$223"
+2026-11-19T08:22:43Z,Scanner,floor_drop,3Pbwa2HoGRZANqAXFay3oBqV5QiySfbXa3Giqug2moon,"liq=$1,635 holders=1 vol24=$0"
+2026-11-19T08:22:43Z,Scanner,floor_drop,66Mqoax5jaQG8BSMnKFVDyfVu8q4rYYSDLoRW8zzpump,"liq=$3,033 holders=3 vol24=$111"
+2026-11-19T08:22:44Z,Scanner,floor_drop,Eu6Y2pB9eZF1q55AnyrhyUfwZmS1JQSN3uMjy9JHpump,"liq=$2,517 holders=7 vol24=$875"
+2026-11-19T08:22:44Z,Scanner,candidate_pass,3LGM9veZrAsUv8YvCEXYTSLuKUQdmyvQCefENgMjJh6w,"liq=$7,775 holders=82 vol24=$10,457"
+2026-11-19T08:22:45Z,Scanner,floor_drop,3P8MpAAczxQZMs18NATRFRmS6hVtzCbugr9xie6zYhLz,"liq=$12,977 holders=67 vol24=$8,007"
+2026-11-19T08:22:55Z,Scanner,floor_drop,C5rnMhbPx8qwquDCRcdx3NtxGKWNMNVxetawhA4zpump,"liq=$1,516 holders=0 vol24=$155"
+2026-11-19T08:22:55Z,Scanner,floor_drop,9kNV7CW4YQQD91uvMCD3D4JkbfB6aRnphyQYgwBjpump,"liq=$3,216 holders=39 vol24=$10,606"
+2026-11-19T08:22:56Z,Scanner,candidate_pass,4Zpn1ik3wRZBvDY6v1aN2TBRTFaNkHn6iocguZCNYdLk,"liq=$13,401 holders=203 vol24=$31,513"
+2026-11-19T08:22:56Z,Scanner,floor_drop,CHPHHaRjEfMSgLqSwfgPtdZCBgsAACVVDzZsuArqpump,"liq=$2,268 holders=5 vol24=$165"
+2026-11-19T08:22:57Z,Scanner,floor_drop,4R3TmHHMSJsJj75wcaz2r3LYWpmHLErkNh5xdjRdc3UU,"liq=$5,316 holders=96 vol24=$4,475"
+2026-11-19T08:22:57Z,Scanner,candidate_pass,ALagqdsT52avpDuRPMTPxivkh4e5ED8suwT4ez85g6fe,"liq=$33,910 holders=306 vol24=$13,358"
+2026-11-19T08:22:57Z,Scanner,floor_drop,H9WNAP8Eq9sALHsoe4A4vqf55Sc1VRzoMYUYViyGpump,"liq=$1,691 holders=3 vol24=$24"
+2026-11-19T08:22:58Z,Scanner,floor_drop,GxqdQUDUZir7PF8EW4CrJfyaSGPoNWqjJoWftWC7PTMm,"liq=$13,864 holders=19 vol24=$2,534"
+2026-11-19T08:22:58Z,Scanner,floor_drop,CV13NE1EBizS9WBE5AxqT1sB8Qsf2PuxWBXu7pdMpump,liq=$63 holders=6 vol24=$110
+2026-11-19T08:22:59Z,Scanner,floor_drop,5h17qRwbu1iHvKZd5mTLSUkutYvV6fy31WidxrUd9VLc,"liq=$15,452 holders=179 vol24=$3,473"
+2026-11-19T08:23:00Z,Scanner,floor_drop,7kuZBqmAzTUwJA8wAyUfRURjYWdbo47UcRgxJWRN5ZL3,liq=$4 holders=4 vol24=$123
+2026-11-19T08:23:00Z,Scanner,floor_drop,5HtP2DTEkQxZBj1gszUYXFuiQ8Xwya26amdTZnNbpump,liq=$143 holders=6 vol24=$847
+2026-11-19T08:23:01Z,Scanner,floor_drop,FWopV1VxNC41WxbWJFS4WT9wcYji2o5fXjy2Qh1qySQ7,"liq=$2,058 holders=45 vol24=$5,952"
+2026-11-19T08:23:01Z,RugCheck,CLEAN_PASS,3LGM9veZrAsUv8YvCEXYTSLuKUQdmyvQCefENgMjJh6w,"{""mint_authority"": null, ""freeze_authority"": null, ""top10_pct"": 9.97, ""lp_unlocked"": false, ""risks"": [], ""rugcheck_score"": 1, ""holders"": 82}"
+2026-11-19T08:23:01Z,Momentum,uptrend_fail,3LGM9veZrAsUv8YvCEXYTSLuKUQdmyvQCefENgMjJh6w,"{""volume_rising_with_price"": {""pass"": null, ""detail"": ""no ohlcv""}, ""higher_highs_lows"": {""pass"": null, ""detail"": ""no ohlcv""}, ""buy_sell_ratio_gt1"": {""pass"": true, ""detail"": ""buys=124 sells=122 ratio=1.02""}, ""new_buyers_rising"": {""pass"": true, ""detail"": ""h1_buys=124 h1_change=0.74% (proxy: price up +"
+2026-11-19T08:23:01Z,RugCheck,RUGGABLE_DROP,4Zpn1ik3wRZBvDY6v1aN2TBRTFaNkHn6iocguZCNYdLk,top10 97.5% > 30%; LP unlocked
+2026-11-19T08:23:01Z,RugCheck,RUGGABLE_DROP,ALagqdsT52avpDuRPMTPxivkh4e5ED8suwT4ez85g6fe,top10 92.7% > 30%; LP unlocked
+2026-11-19T08:23:01Z,Coordinator,cycle_end,,open fills this cycle: 0
+2026-11-19T08:23:01Z,Coordinator,sleep,,900s
+2026-11-19T08:38:01Z,Coordinator,cycle_start,,cycle=42 mode=paper capital=$500.00
+2026-11-19T08:38:01Z,Scanner,scan_start,,limit=20
+2026-11-19T08:38:02Z,Scanner,floor_drop,5puKQcXuyRRxxEh6GYgR7K4akkfkgiCLbkt2jTsspump,"liq=$1,939 holders=0 vol24=$0"
+2026-11-19T08:38:03Z,Scanner,floor_drop,3apJdiVCwVSwKCQtnT3qqShGjZy56HEiUC5RD3UEZUkM,"liq=$5,007 holders=2 vol24=$0"
+2026-11-19T08:38:03Z,Scanner,floor_drop,9bxfU41ohNenJQfqHzBQQC3bQBaaSw9bKUvzK652pump,liq=$861 holders=6 vol24=$0
+2026-11-19T08:38:03Z,Scanner,floor_drop,5s5L65NmoykkKEPRyZm7Z2uA388BGpnhRWS8RDWupump,"liq=$1,974 holders=6 vol24=$0"
+2026-11-19T08:38:04Z,Scanner,floor_drop,2XqMsHmHiUavfNqhZgdMV9ANrsD9B35RsdzKWMqnpump,"liq=$1,873 holders=4 vol24=$0"
+2026-11-19T08:38:04Z,Scanner,floor_drop,S6zZsa1A4RDGov4Y61WaC4YZsVQUV5cvd15yS6fJu24,"liq=$7,525 holders=3 vol24=$0"
+2026-11-19T08:38:05Z,Scanner,floor_drop,5VMxX3qB2a3uipyojrcTySY2FK4DRvL7QchFJDbUpump,"liq=$2,466 holders=3 vol24=$0"
+2026-11-19T08:38:05Z,Scanner,floor_drop,3gkkSHADKcMg2ZrcYASpbCYzorAS9s4pkGgLrz28pump,"liq=$1,675 holders=2 vol24=$22"
+2026-11-19T08:38:05Z,Scanner,floor_drop,D8nU39NqqHC1EBhjeCXBquXQzHMdqeQK9stHzxXcwusU,"liq=$12,698 holders=879 vol24=$10"
+2026-11-19T08:38:06Z,Scanner,floor_drop,GW5Qd7S87BFuVFNvrLnRJQpP9LfNc9GCfkdMXWBGpump,"liq=$3,413 holders=8 vol24=$56"
+2026-11-19T08:38:06Z,Scanner,floor_drop,6CBqx2PggfWJb5YkjBXfn9tZKt8DgDMKmSmzatBwwDiN,"liq=$17,564 holders=79 vol24=$607"
+2026-11-19T08:38:08Z,Scanner,floor_drop,5VwaKz22NJAywEDJH4yvqXXf9JpkknCrZeWfnpSspump,"liq=$3,205 holders=4 vol24=$0"
+2026-11-19T08:38:09Z,Scanner,floor_drop,EFvPFCeeVCdAVqMRS2s4AY853NQGNrNdBUvCDKW9pump,"liq=$1,878 holders=4 vol24=$20"
+2026-11-19T08:38:09Z,Scanner,floor_drop,E9Bk3fqjigSmPvzhd8PPqWDzoQefmjc7uwrHwr8zpump,"liq=$1,919 holders=2 vol24=$37"
+2026-11-19T08:38:09Z,Scanner,floor_drop,D8nU39NqqHC1EBhjeCXBquXQzHMdqeQK9stHzxXcwusU,"liq=$12,698 holders=879 vol24=$10"
+2026-11-19T08:38:10Z,Scanner,floor_drop,D8nU39NqqHC1EBhjeCXBquXQzHMdqeQK9stHzxXcwusU,"liq=$12,698 holders=879 vol24=$10"
+2026-11-19T08:38:10Z,Scanner,floor_drop,3JygcqTBtSnDgUSfTdpmsH5B9p5u3uhBm6tRyPoepump,"liq=$2,432 holders=2 vol24=$3"
+2026-11-19T08:38:10Z,Scanner,floor_drop,ALK8srqdi9Raqki3Pq9J1Q6XG4auYQ7mmwXQcsGDpump,liq=$322 holders=5 vol24=$92
+2026-11-19T08:38:11Z,Scanner,candidate_pass,8h49NDbBeZuXsiuV6h8Pt2VqVXhpQNYVkjGsjcCA2RWT,"liq=$15,692 holders=102 vol24=$17,196"
+2026-11-19T08:38:11Z,Scanner,floor_drop,8TWAdmL8B25sPnspiC4Q7NbgJip69itzjVXCxtf3pump,"liq=$1,658 holders=2 vol24=$884"
+2026-11-19T08:38:11Z,RugCheck,RUGGABLE_DROP,8h49NDbBeZuXsiuV6h8Pt2VqVXhpQNYVkjGsjcCA2RWT,top10 94.6% > 30%; LP unlocked
+2026-11-19T08:38:11Z,Coordinator,cycle_end,,open fills this cycle: 0
+2026-11-19T08:38:11Z,Coordinator,sleep,,900s
+2026-11-19T08:53:11Z,Coordinator,cycle_start,,cycle=43 mode=paper capital=$500.00
+2026-11-19T08:53:11Z,Scanner,scan_start,,limit=20
+2026-11-19T08:53:12Z,Scanner,floor_drop,EwVxGcdurYRpmTEBV3cPgzHrJ6reCviY13WWfkFnpump,"liq=$1,871 holders=4 vol24=$0"
+2026-11-19T08:53:12Z,Scanner,floor_drop,o1jPY11bYroqYBRwkhjzFqW43tgyztP2QSntxApYXQk,"liq=$13,048 holders=70 vol24=$0"
+2026-11-19T08:53:14Z,Scanner,floor_drop,BKrduYmKakp7RCxkWRRwFmoCNuNCZzVCTC7jVVy1pump,liq=$884 holders=4 vol24=$0
+2026-11-19T08:53:14Z,Scanner,floor_drop,8H5h1v8ctFu2tUj4L3Z7eLypzP94vGJ4Apx5PD8uimob,"liq=$13,268 holders=114 vol24=$539"
+2026-11-19T08:53:15Z,Scanner,floor_drop,6yEAoByPggEGM1AjBM4oXHtgH67qDcmXudzY4WWPpump,"liq=$1,678 holders=2 vol24=$0"
+2026-11-19T08:53:15Z,Scanner,floor_drop,DW1ZZVr3eD1U1R1GUh65mjw5TDAvaGdTBhTh9EEFLzbF,liq=$503 holders=13 vol24=$0
+2026-11-19T08:53:15Z,Scanner,floor_drop,GcbGb1s2Vknt4VSgPdmBjzEtw1xavZnw6HTxyETze497,"liq=$27,270 holders=59 vol24=$2,250"
+2026-11-19T08:53:16Z,Scanner,floor_drop,FsFeRidZmoa2ZGbaq5ug7WUjQugpBkiK6CedEB7Xpump,liq=$158 holders=10 vol24=$5
+2026-11-19T08:53:16Z,Scanner,floor_drop,E6Kpu3tkriKAN2NipFbawePMy3HKB46Yyt8hWj7Apump,"liq=$2,425 holders=1 vol24=$0"
+2026-11-19T08:53:16Z,Scanner,floor_drop,McikQ735kbzbCz61k8xiB4ptjsjyvimwEVEQXN5eKDv,"liq=$25,258 holders=80 vol24=$781"
+2026-11-19T08:53:17Z,Scanner,floor_drop,BdXFwwqh3rNtnpQ9AQ2gGPeexYoAUBdQQvAsGWcKpump,"liq=$1,894 holders=3 vol24=$0"
+2026-11-19T08:53:17Z,Scanner,floor_drop,BsXHAHJdaT7JcYk5NUVAM4MG3obgWEQVRe3hfGimkMV,"liq=$29,203 holders=80 vol24=$979"
+2026-11-19T08:53:17Z,Scanner,floor_drop,9GE97o5K3YNGGGahjZuXGKhxbc4o6usZ2Go9t1pypump,"liq=$2,586 holders=1 vol24=$0"
+2026-11-19T08:53:18Z,Scanner,floor_drop,6haYzw72yW1GdtQJHPnJCs5KKfYDRYHeja6Ub3c5Pnh2,"liq=$1,870 holders=13 vol24=$0"
+2026-11-19T08:53:18Z,Scanner,floor_drop,2h5vUbX9JtqP2yuLUNjUYvZZcruWYfCm5BUoUhm1pump,"liq=$5,233 holders=119 vol24=$8,000"
+2026-11-19T08:53:19Z,Scanner,floor_drop,FbRdKfq8XkZBaT5xsj9hmrBHp22KDi2PxwhAV7cZpump,"liq=$3,440 holders=3 vol24=$0"
+2026-11-19T08:53:19Z,Scanner,floor_drop,6Ko7XArQmoC4ik2MMEAhAuqdgNFUqNH54XVvDzejpump,"liq=$2,601 holders=3 vol24=$0"
+2026-11-19T08:53:20Z,Scanner,floor_drop,CTwvU5MnuNypHTC9dqJxAKic3a83zh4u13gypPutpump,"liq=$1,271 holders=6 vol24=$0"
+2026-11-19T08:53:20Z,Scanner,floor_drop,CL5XdEgEVmioBsrvG8j96jk55w1hKXpYXu4xRi9Xpump,"liq=$3,028 holders=3 vol24=$337"
+2026-11-19T08:53:20Z,Scanner,floor_drop,Bd9BAQRQmxit2Shshc2P2f53tJmjBALdayjFqx9ipump,liq=$462 holders=9 vol24=$31
+2026-11-19T08:53:20Z,Coordinator,cycle_end,,open fills this cycle: 0
+2026-11-19T08:53:20Z,Coordinator,sleep,,900s
+2026-11-19T09:08:20Z,Coordinator,cycle_start,,cycle=44 mode=paper capital=$500.00
+2026-11-19T09:08:20Z,Scanner,scan_start,,limit=20
+2026-11-19T09:08:21Z,Scanner,floor_drop,5jDFFDP4NnTs2sFR8ogioQ77EuZPNNBmD41U8wLNpump,"liq=$1,205 holders=3 vol24=$0"
+2026-11-19T09:08:21Z,Scanner,floor_drop,3RYAsvWntzJnh1f2tAjdtanyGDBmTyuVoyfvwAX3pump,liq=$962 holders=4 vol24=$0
+2026-11-19T09:08:22Z,Scanner,floor_drop,BRotXMMHqwVaPfjez7Ls7tRtdDyKQS66zrfBh4wYpump,"liq=$2,602 holders=4 vol24=$0"
+2026-11-19T09:08:22Z,Scanner,floor_drop,DXVQpBU7FQnJC2AUha5kSejZsMEwh96kYh97kh3qpump,"liq=$3,724 holders=62 vol24=$0"
+2026-11-19T09:08:22Z,Scanner,floor_drop,2wZmWMTG6kAziPysq872uDEtq4sg5LGxZ9Ryp5wapump,"liq=$4,370 holders=6 vol24=$0"
+2026-11-19T09:08:23Z,Scanner,floor_drop,7KwQHwVuveEhcgqJgdKdjg7TocGAezvGUQbDqkd23H8j,"liq=$7,762 holders=96 vol24=$7"
+2026-11-19T09:08:23Z,Scanner,floor_drop,9FY5DCa4jhyib9br2cUTsqoim16QFzE7t73Ko9bwdvFR,"liq=$2,533 holders=2 vol24=$143"
+2026-11-19T09:08:23Z,Scanner,floor_drop,HAKYRQVqEWuKxu37UMZJQMzpg9F4chVfsbJLvaQjpump,"liq=$3,072 holders=12 vol24=$1,522"
+2026-11-19T09:08:24Z,Scanner,floor_drop,2Z7YqQrDB88mtbrBgnt1LdinJSDLBjm1EJmnTf9npump,"liq=$2,430 holders=8 vol24=$0"
+2026-11-19T09:08:24Z,Scanner,floor_drop,BBVoqWagVhAwEUsgvFMnjMHgCZdd59zomF91vpH9Ziq1,"liq=$12,720 holders=840 vol24=$12"
+2026-11-19T09:08:25Z,Scanner,floor_drop,3hc8nAXR9RV1Q5AwJbKpnuTXF8yp1CnrddUHCxSE5Mmg,"liq=$158,929 holders=47 vol24=$3,812"
+2026-11-19T09:08:25Z,Scanner,floor_drop,EY77LAFX4NUaWdDfgcw43ihRBuwSf7tGqxLr1AKLpump,liq=$563 holders=7 vol24=$0
+2026-11-19T09:08:25Z,Scanner,floor_drop,HyJwzGBdLKYcLzdBtQqVJVaJyoUsPeXHb6KQWDBWpump,liq=$581 holders=4 vol24=$0
+2026-11-19T09:08:28Z,Scanner,floor_drop,G6f3omf2Ugvr2SMm8HsvNaY3Wf1tZ3BkbQhr1xxpZVVF,"liq=$10,141 holders=61 vol24=$3,815"
+2026-11-19T09:08:28Z,Scanner,floor_drop,35fajLRMwGLutUGo95Emk2HnVnkTis5jWBcMCTr5pump,"liq=$1,726 holders=4 vol24=$267"
+2026-11-19T09:08:28Z,Scanner,floor_drop,BBVoqWagVhAwEUsgvFMnjMHgCZdd59zomF91vpH9Ziq1,"liq=$12,720 holders=840 vol24=$12"
+2026-11-19T09:08:29Z,Scanner,floor_drop,BBVoqWagVhAwEUsgvFMnjMHgCZdd59zomF91vpH9Ziq1,"liq=$12,720 holders=840 vol24=$12"
+2026-11-19T09:08:31Z,Scanner,candidate_pass,3FipyFCvSMsxCkLYTDeyBgRhkeiuQZgcddvqyojDioss,"liq=$20,627 holders=161 vol24=$24,119"
+2026-11-19T09:08:33Z,Scanner,floor_drop,DZ4SFsnqPF1cUx8vuo3hDTJCMMrpw3bu3kTJYPRcpump,"liq=$5,297 holders=74 vol24=$787"
+2026-11-19T09:08:33Z,Scanner,floor_drop,2CasmyoH6Ja3AyB6ieEiaGpzQRM3RE6pHCiHu5NzHPMn,"liq=$135,808 holders=7 vol24=$3,591"
+2026-11-19T09:08:33Z,RugCheck,RUGGABLE_DROP,3FipyFCvSMsxCkLYTDeyBgRhkeiuQZgcddvqyojDioss,top10 95.6% > 30%; LP unlocked
+2026-11-19T09:08:33Z,Coordinator,cycle_end,,open fills this cycle: 0
+2026-11-19T09:08:33Z,Coordinator,sleep,,900s
+2026-11-19T09:23:33Z,Coordinator,cycle_start,,cycle=45 mode=paper capital=$500.00
+2026-11-19T09:23:33Z,Scanner,scan_start,,limit=20
+2026-11-19T09:23:34Z,Scanner,floor_drop,BEBbk1wcqfKNQzW8mxyfUeC8wq9zsycnmVxvNoV3pump,"liq=$1,865 holders=2 vol24=$20"
+2026-11-19T09:23:34Z,Scanner,floor_drop,Hb2rPhraCDfmv2PPFfByXVC1ojZgkPG511Gxyiz8pump,liq=$729 holders=3 vol24=$0
+2026-11-19T09:23:35Z,Scanner,floor_drop,JCDm81eoGFKtsmBn2nLAvhhJPQCmXupB8zu4srEUpump,"liq=$1,729 holders=5 vol24=$0"
+2026-11-19T09:23:35Z,Scanner,floor_drop,6nDLezRHNmvJepeaA5aJFjQLWNGP3DYPi5wezLS2pump,liq=$302 holders=3 vol24=$0
+2026-11-19T09:23:35Z,Scanner,floor_drop,76Vz52dXvDpuTgEj5buSmL6ASYbNhASgGnfAba88pump,liq=$206 holders=7 vol24=$0
+2026-11-19T09:23:36Z,Scanner,floor_drop,BUwkyTmbRVf6d4cY4YMS5bygLtY9ak2zRuG9kRznpump,"liq=$1,661 holders=3 vol24=$1"
+2026-11-19T09:23:36Z,Scanner,floor_drop,2P2XDYRPXHJ31ViNEL7xsVMQfHGPQkwKUy3u59d4yhRa,"liq=$2,988 holders=106 vol24=$564"
+2026-11-19T09:23:37Z,Scanner,floor_drop,ELbGFEYJw92xhBisDps7K5Ch22ApRXbh8dXXxjCBpump,liq=$150 holders=5 vol24=$0
+2026-11-19T09:23:38Z,Scanner,floor_drop,6DDGof1LDHSyHoSzKEhTbmf58R9u7GY1x8PVdsbCNpVS,"liq=$127,692 holders=106 vol24=$4,318"
+2026-11-19T09:23:38Z,Scanner,floor_drop,DjsQJQ32zR2gRcc4nWjdyafi4TJhpSBbRPdynRh3pVS2,"liq=$2,080 holders=1 vol24=$0"
+2026-11-19T09:23:38Z,Scanner,floor_drop,BL9ymXwtDNditoCnh78xLexmEPANGSLokPwChg3Kpump,liq=$757 holders=4 vol24=$177
+2026-11-19T09:23:39Z,Scanner,floor_drop,6jdqPJGWN9pwbgC4PZS2t8jLK3h4z2pEpdqJF2Sbpump,"liq=$1,694 holders=2 vol24=$55"
+2026-11-19T09:23:39Z,Scanner,floor_drop,G9PP3miuNqNvfZM9gtn9qzpEeBYSMTmBqrTTBKfZZbpu,"liq=$14,669 holders=287 vol24=$6,230"
+2026-11-19T09:23:39Z,Scanner,floor_drop,4oSvbfhK9avfd5U6a3oLAJiUtpnn2TZqx5Lm5jGbR54o,liq=$0 holders=6 vol24=$3
+2026-11-19T09:23:40Z,Scanner,floor_drop,GQZf2kucCnvmAqscZx4qYqX4zd9TjsKHFZCq3jZHpump,"liq=$2,402 holders=2 vol24=$1"
+2026-11-19T09:23:40Z,Scanner,floor_drop,FheRtPdaxwKp29Yeh9tAGKE8npnbC2GpPPijmiGQpump,"liq=$1,663 holders=5 vol24=$812"
+2026-11-19T09:23:40Z,Scanner,floor_drop,GzZCei7iYTD81peMu8ZdgfponMKidaE8r4ddkb1Mpump,"liq=$1,386 holders=4 vol24=$61"
+2026-11-19T09:23:41Z,Scanner,floor_drop,B4RWTPy18Ztqu9Kmf8qXduQNsUHnqLL47auqTpzGpump,"liq=$3,529 holders=11 vol24=$423"
+2026-11-19T09:23:41Z,Scanner,floor_drop,J5QKHzvqtWGMADwmR7NSGaU7W4RB38VcdFpMK61Epump,liq=$355 holders=4 vol24=$37
+2026-11-19T09:23:42Z,Scanner,candidate_pass,o4zfi6L7ADgzqbZGarHwepSf3JWy3MeveWAVedNJsZ6,"liq=$14,728 holders=101 vol24=$15,517"
+2026-11-19T09:23:42Z,RugCheck,RUGGABLE_DROP,o4zfi6L7ADgzqbZGarHwepSf3JWy3MeveWAVedNJsZ6,top10 97.6% > 30%; LP unlocked
+2026-11-19T09:23:42Z,Coordinator,cycle_end,,open fills this cycle: 0
+2026-11-19T09:23:42Z,Coordinator,sleep,,900s
+2026-11-19T09:38:42Z,Coordinator,cycle_start,,cycle=46 mode=paper capital=$500.00
+2026-11-19T09:38:42Z,Scanner,scan_start,,limit=20
+2026-11-19T09:38:42Z,Scanner,floor_drop,5a6mAmWbL3Na2KhwV1LmmAUSf12Gy1vd3NjqBq24pump,"liq=$3,974 holders=37 vol24=$0"
+2026-11-19T09:38:43Z,Scanner,floor_drop,GnRrvxKdXNp2Hd19ChDBYQAtSPDqqiuaP6xoH3fFpump,liq=$678 holders=3 vol24=$0
+2026-11-19T09:38:43Z,Scanner,floor_drop,7c23i3jNZF9eVRhVnDqhYgQ5NCNXt31BC6tdxQ7mgbkz,"liq=$204,907 holders=3 vol24=$1"
+2026-11-19T09:38:44Z,Scanner,floor_drop,9NqQynf5H6MYvvVTJKfGMP8EssaskRctXn7AzZGkr9Hc,"liq=$12,094 holders=36 vol24=$0"
+2026-11-19T09:38:44Z,Scanner,floor_drop,Btxd7zhgCFnsCtCX76i7dhvmxXxS3yputpiBWw3vpump,"liq=$1,335 holders=1 vol24=$21"
+2026-11-19T09:38:45Z,Scanner,floor_drop,A4Kg7b8xxY3zbEkUStyiTjsY4CZnfzgirsjvdPTtpump,"liq=$1,699 holders=8 vol24=$133"
+2026-11-19T09:38:45Z,Scanner,floor_drop,EXWRANLAAXcPJyRsm4T7vE3NaXthwDV6LwemKWKygycJ,"liq=$1,873 holders=8 vol24=$851"
+2026-11-19T09:38:45Z,Scanner,floor_drop,EpLdCMQD4uJq1wQBxkbWmCEMwv2LyejEewEzsyeapump,"liq=$3,707 holders=32 vol24=$992"
+2026-11-19T09:38:46Z,Scanner,floor_drop,2cqC8417xqAHCBNw3nF4nMS1Tzm4LFWxf2imNaxsgzqY,"liq=$14,232 holders=149 vol24=$2,769"
+2026-11-19T09:38:47Z,Scanner,floor_drop,Esc2YF3FxPWRedvbHasfErgceNLcgYAer1raggqzF2s4,"liq=$25,267 holders=89 vol24=$781"
+2026-11-19T09:38:47Z,Scanner,floor_drop,9sroADmwXnYGaNi9NRvvhSevPuWPghJBPiSk9jnZpump,"liq=$2,965 holders=2 vol24=$28"
+2026-11-19T09:38:47Z,Scanner,floor_drop,31NBuLxCxtJ6dfMaAGh2CVA8iG51TPZFCuZwrVUTpump,liq=$411 holders=15 vol24=$0
+2026-11-19T09:38:48Z,Scanner,floor_drop,6mmacJgCLBYCsVaEXr75KgDrpF19CrBngFXymCV9ZEYT,"liq=$3,376 holders=106 vol24=$821"
+2026-11-19T09:38:48Z,Scanner,floor_drop,FfxCpUS69WnLocebcWoKRcSvPJziEjHCY6AfwXy4pump,"liq=$1,654 holders=3 vol24=$0"
+2026-11-19T09:38:49Z,Scanner,floor_drop,5hehaWhn3wMTS1QewuFkSCzN9NuducHgPCE5KWHXpump,liq=$329 holders=6 vol24=$5
+2026-11-19T09:38:49Z,Scanner,floor_drop,GDHT5D6i6GcEhQWvWmyMdRM7X4pUFDNi8BANf4Ew1gFi,"liq=$1,737 holders=6 vol24=$1,091"
+2026-11-19T09:38:49Z,Scanner,floor_drop,2SLFPwj1qZcyioxavSMdwAAARF2Q5yxxeypPzXPD1zrc,"liq=$23,820 holders=122 vol24=$3,130"
+2026-11-19T09:38:50Z,Scanner,floor_drop,FRPjLgPRyTbzf2MpoQ4AT8djuFPraAvx8pjZbKc1pump,liq=$677 holders=16 vol24=$246
+2026-11-19T09:38:50Z,Scanner,candidate_pass,3KJ2VYn4dx1bTy3rVQdrQ2i4ir1oSA8gS1sLr9V8XbH7,"liq=$21,206 holders=125 vol24=$19,623"
+2026-11-19T09:38:51Z,Scanner,floor_drop,9KJXoCwyKv4krTTi5EVEZ5PkHJUrTKJas4Zo6Bkpump,liq=$276 holders=9 vol24=$320
+2026-11-19T09:38:51Z,RugCheck,RUGGABLE_DROP,3KJ2VYn4dx1bTy3rVQdrQ2i4ir1oSA8gS1sLr9V8XbH7,top10 96.4% > 30%; LP unlocked
+2026-11-19T09:38:51Z,Coordinator,cycle_end,,open fills this cycle: 0
+2026-11-19T09:38:51Z,Coordinator,sleep,,900s
+2026-11-19T09:53:51Z,Coordinator,cycle_start,,cycle=47 mode=paper capital=$500.00
+2026-11-19T09:53:51Z,Scanner,scan_start,,limit=20
+2026-11-19T09:53:51Z,Scanner,floor_drop,2fmBzkyf5ruE3nJAufmShxds1nh1CDHr4uYNr7qBW3CC,"liq=$31,181 holders=87 vol24=$2,955"
+2026-11-19T09:53:52Z,Scanner,floor_drop,H7HL67imPyvwipDcb85JPwZ9Rza66HcnWjekp4fUpump,"liq=$1,661 holders=2 vol24=$0"
+2026-11-19T09:53:52Z,Scanner,floor_drop,DTbCY9W5wyY3u5dPmEfKx6sbXBjW4xniicPXZZBxLRTW,"liq=$12,684 holders=82 vol24=$375"
+2026-11-19T09:53:52Z,Scanner,floor_drop,28cGisWCM8FKpy35w6Dttekzh6z4vWCWfkAp3LJzpump,"liq=$2,958 holders=4 vol24=$0"
+2026-11-19T09:53:53Z,Scanner,floor_drop,CCqVGqwv7dmWuHC8MeJazKQ6HdZ1zFvFrax8gTWbpump,"liq=$1,962 holders=5 vol24=$0"
+2026-11-19T09:53:53Z,Scanner,floor_drop,7pS8kKDX7CfA515GymhoiE2kqFvsnMDr8XSoMBwRpump,"liq=$2,152 holders=8 vol24=$0"
+2026-11-19T09:53:53Z,Scanner,floor_drop,FsVhZKbvdTGFsfx6HnJiEnSvxyuJrZsTCmQ9XCpfpump,"liq=$1,657 holders=3 vol24=$0"
+2026-11-19T09:53:54Z,Scanner,floor_drop,52dHtnBjCegEsVSuXCjJRjNrXgtowKmLY3vyo1BTpump,"liq=$1,670 holders=3 vol24=$0"
+2026-11-19T09:53:54Z,Scanner,floor_drop,G2tAbMVvia1Mis3vTTwamQCHnY9NprfWPGYLpn9ipump,"liq=$2,405 holders=3 vol24=$0"
+2026-11-19T09:53:54Z,Scanner,floor_drop,HMxQXNSaGNLR7r4a9BbjLBX9nG72pTnwTBwn1gcpcTp7,liq=$424 holders=11 vol24=$0
+2026-11-19T09:53:55Z,Scanner,floor_drop,41bDXVa65tseLxarJwgfwJ4Vu4mPKmDPs6FEzRzzEKzj,liq=$2 holders=85 vol24=$386
+2026-11-19T09:53:55Z,Scanner,floor_drop,AEQtNYLzeFTp8kkpH7tgk3v91i9rzQMabMugFumDpump,"liq=$3,254 holders=3 vol24=$0"
+2026-11-19T09:53:55Z,Scanner,floor_drop,FQeNXSUKWpeDv9HYdDne4CB9cqwdbuCwKGJXqgxrpump,"liq=$1,662 holders=3 vol24=$29"
+2026-11-19T09:53:56Z,Scanner,floor_drop,4qqiXh1rrvCAvq15fYBCYP6TWmMSbu5QGTeSiexxpump,"liq=$1,976 holders=2 vol24=$87"
+2026-11-19T09:53:56Z,Scanner,floor_drop,AShLw1GNwuUEmsZgSpRMxnrQqEShhYgvCdquxxwypump,liq=$264 holders=4 vol24=$38
+2026-11-19T09:53:56Z,Scanner,floor_drop,EtG8WCkKZZDb5pJnRsnjBxXQBcLscEM7eaUuYGVjpump,"liq=$1,808 holders=3 vol24=$107"
+2026-11-19T09:53:57Z,Scanner,floor_drop,5JkrDjUk7hZSzQC2XYGC89aFJhREEerDfwJxgWPipump,"liq=$1,920 holders=2 vol24=$5"
+2026-11-19T09:53:57Z,Scanner,floor_drop,5hLjAPZbNzNmaQnetTcX68qNU65k8DKuWGvyk7LApump,"liq=$1,262 holders=9 vol24=$340"
+2026-11-19T09:53:57Z,Scanner,floor_drop,41bDXVa65tseLxarJwgfwJ4Vu4mPKmDPs6FEzRzzEKzj,liq=$2 holders=85 vol24=$386
+2026-11-19T09:53:58Z,Scanner,floor_drop,Dd9dcPGYze9byVDsg5dJKVKptLZnFsrsoavhhMqWpump,"liq=$2,443 holders=2 vol24=$257"
+2026-11-19T09:53:58Z,Coordinator,cycle_end,,open fills this cycle: 0
+2026-11-19T09:53:58Z,Coordinator,sleep,,900s
+2026-11-19T10:08:58Z,Coordinator,cycle_start,,cycle=48 mode=paper capital=$500.00
+2026-11-19T10:08:58Z,Scanner,scan_start,,limit=20
+2026-11-19T10:08:58Z,Scanner,floor_drop,9WbLJjVCF2rRHQD3u3pecj1skRhbn9YNrc4vDRC5yqw1,"liq=$1,712 holders=107 vol24=$2,221"
+2026-11-19T10:08:59Z,Scanner,floor_drop,tixF4XzufKU7xGRR5pv1KtTpsz31wTBFChE1ssTpump,"liq=$1,993 holders=5 vol24=$0"
+2026-11-19T10:08:59Z,Scanner,floor_drop,8N1q6bFjeptrkDfXcFMEu3tHdLgtoMv4ktDtuez5PC2G,"liq=$29,892 holders=146 vol24=$2"
+2026-11-19T10:09:00Z,Scanner,floor_drop,BGzW7v7cDSaLinE2undjihPEeMhB1N9jvduyaotpump,liq=$510 holders=6 vol24=$0
+2026-11-19T10:09:00Z,Scanner,floor_drop,7tm9oNJ8QepL8QKT8vHC2vv7CvEDfWnLLjrfDX6S65ey,"liq=$5,971 holders=31 vol24=$13,893"
+2026-11-19T10:09:01Z,Scanner,floor_drop,GStfv8eKjspdv5TXZssos9SdDf1vkDv356c4WTh9pump,liq=$367 holders=5 vol24=$29
+2026-11-19T10:09:03Z,Scanner,floor_drop,462xnWrFzpLwsfAHRg61zF9cbe3v9krSzSSnrvdkpump,"liq=$1,995 holders=13 vol24=$537"
+2026-11-19T10:09:03Z,Scanner,floor_drop,EUMBPmV3gmta7gRNxXrYGcMaxpMwPvk6kX4HRi28pump,liq=$243 holders=8 vol24=$776
+2026-11-19T10:09:04Z,Scanner,floor_drop,3n83yf2BTwG4DLCQR1zYDDzYQTo4bfb7cTPWnhMYpump,"liq=$1,945 holders=2 vol24=$34"
+2026-11-19T10:09:04Z,Scanner,floor_drop,5fckUJ4XwFnc5fjFsdmdUCwPDWSrsE8wCrhhC571pump,"liq=$3,231 holders=4 vol24=$171"
+2026-11-19T10:09:05Z,Scanner,floor_drop,9cP42zBKdteZNGMhTvS7CS1VyFWZsNP1Fm1xe1Sxpump,"liq=$1,658 holders=2 vol24=$0"
+2026-11-19T10:09:05Z,Scanner,floor_drop,HrLx3t4baCGsiubtvF9sKdevAdniRNGrvCoRDyqMpump,"liq=$1,658 holders=2 vol24=$0"
+2026-11-19T10:09:06Z,Scanner,floor_drop,BDxitgkSD7YbR4EL4YRd7XqoVwcD9Gde8gVYADw7pump,"liq=$1,658 holders=2 vol24=$0"
+2026-11-19T10:09:06Z,Scanner,floor_drop,D64EKrS6fkyz86i79Q2To982pe5zkXZoH2X2nMFwpump,"liq=$2,496 holders=3 vol24=$85"
+2026-11-19T10:09:06Z,Scanner,floor_drop,pycPFFrxTixvhQtMySiGDDjE9QPu4zu1QUmkgd6pump,liq=$544 holders=2 vol24=$178
+2026-11-19T10:09:07Z,Scanner,floor_drop,7DXEEPhsQVEEQUyQLHmXacKqd1MezctZqFUD4ioMpump,"liq=$1,658 holders=2 vol24=$0"
+2026-11-19T10:09:07Z,Scanner,floor_drop,AeQtEEpDv15N9Z12WpJBzrAA2S3dCYk2UHa85Yndpump,"liq=$1,658 holders=2 vol24=$0"
+2026-11-19T10:09:07Z,Scanner,floor_drop,H3cKXMk3ST7ngttVho5LEmVsySqkx38oyBDjsaZ4pump,"liq=$1,659 holders=1 vol24=$2"
+2026-11-19T10:09:08Z,Scanner,floor_drop,Bh4Gno96EfGUEQYLNmDqGCBcDhax17qordfLWbvVpump,liq=$780 holders=4 vol24=$89
+2026-11-19T10:09:09Z,Scanner,floor_drop,81SmwhNhurBecC4Kxo9RFWQmJcps1XeMEqvmvv9ppump,"liq=$2,425 holders=1 vol24=$14"
+2026-11-19T10:09:09Z,Coordinator,cycle_end,,open fills this cycle: 0
+2026-11-19T10:09:09Z,Coordinator,sleep,,900s
+2026-11-19T10:18:02Z,Coordinator,run_start,,mode=paper ends=2026-11-19T22:28:41Z interval=900s
+2026-11-19T10:18:02Z,Coordinator,cycle_start,,cycle=49 mode=paper capital=$500.00
+2026-11-19T10:18:02Z,Scanner,scan_start,,limit=20
+2026-11-19T10:18:03Z,Scanner,feed,,source=Birdeye count=10
+2026-11-19T10:18:03Z,Scanner,floor_drop,AyonGmkYiANR461Z7aaAVpSX6q2xzK7kcts8ADfNpump,"liq=$2,089 holders=0 vol24=$0"
+2026-11-19T10:18:03Z,Scanner,floor_drop,2m4VxawnkDDH7zzhz7W947umjjUiHB6indZgBAqmpump,"liq=$2,091 holders=2 vol24=$0"
+2026-11-19T10:18:04Z,Scanner,floor_drop,7j389iUJkt91BNetxK99peVZ3b4RtMPNgE3YekbexzZ4,"liq=$22,051 holders=3 vol24=$0"
+2026-11-19T10:18:04Z,Scanner,floor_drop,9BycGpo2jZzaji8YqQYgCuaWi47dEj8gS2QZD9p7L96j,"liq=$29,798 holders=3 vol24=$0"
+2026-11-19T10:18:06Z,Scanner,floor_drop,7mWqZyktNRihTSwGCGmNU9A8pbMXLHst19S9x7WPpump,"liq=$3,101 holders=2 vol24=$0"
+2026-11-19T10:18:07Z,Scanner,floor_drop,FVF4jQyRbGBKV8DGpLMn9wJQFgLbXYQSjgwAVe5Zpump,"liq=$2,088 holders=10 vol24=$0"
+2026-11-19T10:18:07Z,Scanner,floor_drop,QEh2w5zyBrRhQv2gz8LPNENRqfBX5kp35EX8XzSpump,"liq=$2,237 holders=2 vol24=$0"
+2026-11-19T10:18:08Z,Scanner,floor_drop,FeUvidp5AW7beCamh7AHFMj6QBHxvJd3NYnuHobqpump,"liq=$2,112 holders=0 vol24=$0"
+2026-11-19T10:18:09Z,Scanner,floor_drop,BdsBdFK5zr2i6KXdZ9iWazH2rKsUrE987of1abZppump,"liq=$2,117 holders=2 vol24=$0"
+2026-11-19T10:18:09Z,Scanner,floor_drop,4RsJjuVDzb9pZ2vu1N8fWJGyNYL1Pv56ZitHKGEApump,"liq=$2,089 holders=3 vol24=$0"
+2026-11-19T10:18:09Z,Coordinator,cycle_end,,open fills this cycle: 0
+2026-11-19T10:24:09Z,Coordinator,cycle_start,,cycle=50 mode=paper capital=$500.00
+2026-11-19T10:24:09Z,Scanner,scan_start,,limit=20
+2026-11-19T10:24:09Z,Scanner,floor_drop,7AAbSABDr3Ms8qmgGox9JaAJ68i1caCbtSdJEvnopump,liq=$0 holders=4 vol24=$86
+2026-11-19T10:24:09Z,Scanner,floor_drop,4GuV3Fw86fTe4q3UExoYiZ3oGzXgpJfyP4r6UUj1pump,liq=$0 holders=2 vol24=$66
+2026-11-19T10:24:10Z,Scanner,floor_drop,5xzp5fky7791kHVKiQHTRXffDZr1tXnBQP22Nvm4M6kf,"liq=$31,568 holders=170 vol24=$2,474"
+2026-11-19T10:24:10Z,Scanner,candidate_pass,4jjgt6Rgn8M36HLQRNYXg6qDjp1ZXgdgtbXZ6EkaWh55,"liq=$27,716 holders=130 vol24=$13,705"
+2026-11-19T10:24:11Z,Scanner,floor_drop,3qkzPeH9JaPfFnrvKcXcunnDQWe1oYPH3iLNRjxapump,"liq=$1,711 holders=2 vol24=$38"
+2026-11-19T10:24:13Z,Scanner,floor_drop,E9ao9DXBuJHhhDGW1bpFgtNY2Ag94atFvM54sH9jpump,liq=$382 holders=7 vol24=$168
+2026-11-19T10:24:13Z,Scanner,floor_drop,HMQbhhm1HTUdhfzYyQYaFiGc8ZuwRUH2ZVMArL3xwhRK,"liq=$14,344 holders=86 vol24=$1,913"
+2026-11-19T10:24:14Z,Scanner,floor_drop,9T9z6CjQBzZmJRsoBdqzHX9yGtFSuGsLDEhEUJQ9pump,"liq=$2,639 holders=5 vol24=$1,460"
+2026-11-19T10:24:16Z,Scanner,floor_drop,3US3DJ6TKbaWQxFGgmXVAVZSaiBZi7JJeXxKNsz6pump,liq=$765 holders=2 vol24=$140
+2026-11-19T10:24:17Z,Scanner,floor_drop,ADVUgP15jAQXFixQiz7sHSgt6U61cFUgH6fSERtupump,"liq=$1,951 holders=3 vol24=$23"
+2026-11-19T10:24:17Z,Scanner,floor_drop,8xVtXZZTHUGtA2y7PSBJbU5LpaTaYVZgNj4egiJcpump,"liq=$2,586 holders=5 vol24=$46"
+2026-11-19T10:24:17Z,Scanner,floor_drop,5jzPiwF3gVBTYTZSSNTyasQpyHaRYCBx81tRzMknpump,"liq=$2,195 holders=9 vol24=$470"
+2026-11-19T10:24:18Z,Scanner,floor_drop,BrrcbzzcBc86kXg51m4iBfa6mc92yRw4GB8w8sSJpump,liq=$690 holders=3 vol24=$106
+2026-11-19T10:24:18Z,Scanner,floor_drop,2to6DToGntDgqNuyPELkR6cdFSUxjqZxr3WJEDhapump,liq=$856 holders=5 vol24=$100
+2026-11-19T10:24:18Z,Scanner,floor_drop,5XDN9d74MERsNJHXiJkB9qxrysDmG8x1TpY8GQatpump,"liq=$4,156 holders=25 vol24=$0"
+2026-11-19T10:24:19Z,Scanner,floor_drop,Hq3NThAe3QBAQEZ47eHYBhT8A8JP1fND8HhG2H9kpump,liq=$659 holders=3 vol24=$68
+2026-11-19T10:24:19Z,Scanner,candidate_pass,7mmg39uq4XLdKkPAirJ5j2CbpVVn9NDRshiSE7YfAU4H,"liq=$38,656 holders=272 vol24=$73,540"
+2026-11-19T10:24:20Z,Scanner,floor_drop,4Y4NX91yWC9fex3e7trA2bP3pNiz3KVBL6WvNr8Spump,liq=$135 holders=9 vol24=$564
+2026-11-19T10:24:21Z,Scanner,floor_drop,4ttTPw125RPG3fUtAiTrJFctLrGkuTNJdpMZL2awhMNU,"liq=$125,569 holders=94 vol24=$4,452"
+2026-11-19T10:24:23Z,Scanner,floor_drop,HY6Um5NqByv2TnkPxnwjkLeCWDuMM2NL3EGTAegNpump,liq=$352 holders=5 vol24=$271
+2026-11-19T10:24:23Z,RugCheck,RUGGABLE_DROP,4jjgt6Rgn8M36HLQRNYXg6qDjp1ZXgdgtbXZ6EkaWh55,top10 97.7% > 30%; LP unlocked
+2026-11-19T10:24:23Z,RugCheck,RUGGABLE_DROP,7mmg39uq4XLdKkPAirJ5j2CbpVVn9NDRshiSE7YfAU4H,top10 75.0% > 30%; LP unlocked
+2026-11-19T10:24:23Z,Coordinator,cycle_end,,open fills this cycle: 0
+2026-11-19T10:24:23Z,Coordinator,sleep,,900s
+2026-11-19T10:39:23Z,Coordinator,cycle_start,,cycle=51 mode=paper capital=$500.00
+2026-11-19T10:39:23Z,Scanner,scan_start,,limit=20
+2026-11-19T10:39:25Z,Scanner,floor_drop,5NYHbRZYYXA1a4iNDTF1YkYs9aSkmgRNEvk8fBAMpump,"liq=$1,108 holders=3 vol24=$10"
+2026-11-19T10:39:26Z,Scanner,floor_drop,4Yu6bRFczyGARiDM6swxz7FkLVktaE7tVmk21ZtLhoeB,"liq=$14,175 holders=19 vol24=$0"
+2026-11-19T10:39:26Z,Scanner,floor_drop,65n5n2U2izCyK8GfAnvzJrXLE6oLGCQHoYB727V7pump,liq=$0 holders=3 vol24=$6
+2026-11-19T10:39:27Z,Scanner,floor_drop,HbNb9N8McLpn93odHnfYCTHdpr9zN3c5tNcKHvcpRW1a,"liq=$28,149 holders=88 vol24=$2"
+2026-11-19T10:39:27Z,Scanner,floor_drop,5EwV28yDcBYCXVHnsPTUmmUv26DEu5YXe1WLpZqbpump,liq=$246 holders=3 vol24=$0
+2026-11-19T10:39:27Z,Scanner,floor_drop,4w9SvDEgxx1qfuN2GXw73XfwKdedEy78Mpy7YV7Upump,"liq=$1,660 holders=2 vol24=$0"
+2026-11-19T10:39:28Z,Scanner,floor_drop,AxFZxJVdt3Md7gWjJ6yNAiwmHwEsHZyqW1UZGkwrpump,"liq=$2,605 holders=0 vol24=$0"
+2026-11-19T10:39:28Z,Scanner,floor_drop,9pEJdTBvcv3cQMM8jWcSvM5wDFmwyyejvkHab7Jbh7KK,liq=$0 holders=836 vol24=$0
+2026-11-19T10:39:28Z,Scanner,floor_drop,9pEJdTBvcv3cQMM8jWcSvM5wDFmwyyejvkHab7Jbh7KK,liq=$0 holders=836 vol24=$0
+2026-11-19T10:39:29Z,Scanner,floor_drop,25hzudqfwN1mDegDVaZX9EABk7qjBLAa5eCpoB8Dpump,"liq=$2,678 holders=5 vol24=$0"
+2026-11-19T10:39:29Z,Scanner,floor_drop,7y767GrYmvJAsaioni6sgjkmXa6ai4WKsZxvDUtYpump,"liq=$1,674 holders=7 vol24=$566"
+2026-11-19T10:39:30Z,Scanner,floor_drop,Ab4KQpETjrcVwwhJJg5KxPpX7VhRnJW6PrRqf7WnAx9r,"liq=$0 holders=14 vol24=$2,071"
+2026-11-19T10:39:30Z,Scanner,floor_drop,JEGY9YGKjtKjxjR3HBwuv28BTRxT7rshpFRugUHPpump,"liq=$1,654 holders=3 vol24=$1"
+2026-11-19T10:39:31Z,Scanner,floor_drop,4XZd95D4WVqGAjs7mpGwtvm3FcTP5L7im2in8y9o5kAT,"liq=$7,614 holders=87 vol24=$1,315"
+2026-11-19T10:39:31Z,Scanner,floor_drop,134kga5QVHQNgMZy3V3gzVyVtuQG57UZfMQdM6jqpump,"liq=$4,365 holders=179 vol24=$16,190"
+2026-11-19T10:39:32Z,Scanner,candidate_pass,36fd5mz9bdZ1CYsGAe2xzHeZ6E39Hd7NAFUofKmrm2F4,"liq=$18,236 holders=92 vol24=$22,586"
+2026-11-19T10:39:32Z,Scanner,floor_drop,d134hcNPCPaAkiVBe3voycZtSTiQXRTecmjz77fpump,"liq=$2,827 holders=4 vol24=$195"
+2026-11-19T10:39:33Z,Scanner,floor_drop,BgeA1atpPjzNhwcyBKu8p2hD7CxVewHdVbxbKtPkpump,liq=$231 holders=2 vol24=$26
+2026-11-19T10:39:35Z,Scanner,floor_drop,EjgxoTwabysBnyBRmoSvPyihAxohFKo7kym65ebpump,"liq=$2,865 holders=4 vol24=$887"
+2026-11-19T10:39:36Z,Scanner,candidate_pass,J3o3kxNrStbNrrXCBfxbK8dFXBtM8q3EBgbsXqTkyqyv,"liq=$28,569 holders=135 vol24=$24,112"
+2026-11-19T10:39:36Z,RugCheck,RUGGABLE_DROP,36fd5mz9bdZ1CYsGAe2xzHeZ6E39Hd7NAFUofKmrm2F4,top10 92.5% > 30%; LP unlocked
+2026-11-19T10:39:36Z,RugCheck,RUGGABLE_DROP,J3o3kxNrStbNrrXCBfxbK8dFXBtM8q3EBgbsXqTkyqyv,top10 96.6% > 30%; LP unlocked
+2026-11-19T10:39:36Z,Coordinator,cycle_end,,open fills this cycle: 0
+2026-11-19T10:39:36Z,Coordinator,sleep,,900s

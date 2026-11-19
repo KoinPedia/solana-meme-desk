@@ -1,12 +1,13 @@
-# Solana Meme Desk (pumpfun-agent)
+# Pump.fun Agent
 
-> **Risk disclaimer: Trading Solana memecoins is extremely risky. You can lose 100% of your capital. This is research code, not financial advice. Never trade with money you cannot afford to lose. Backtest on paper mode before any live use. Fraud, rug pulls, and illiquidity are the norm in this market.**
-
-Read-only scanner + confirmation-gated trader. Nothing spends SOL without your explicit "yes" in chat. Paper mode is the default.
+Read-only scanner + confirmation-gated trader. Nothing spends SOL without your explicit "yes" in chat.
 
 ## Where things live
 
 - `scanner.py` - pulls newest Solana pools (GeckoTerminal), screens with RugCheck + DexScreener, writes `watchlist.json`
+
+- `rpc_config.py` - RPC routing config (Helius / Flux fallbacks), resolved from `.env`
+- `rugcheck_api.py` - RugCheck API client
 - `desk.py` - 4-agent coordinator (Scanner -> Rug Check -> Momentum -> Exit). `--mode paper` (default, no real trades) or `--mode live` (still requires per-trade confirmation flag). `--once` runs one cycle. Enforces floors (liq >=$5k, holders >=50, vol24 >=$10k) and one larger position per day, reinvests paper profits into `paper_state.json` capital ($500 starting).
 - `momentum.py` - confirms 4 uptrend criteria via DexScreener/GeckoTerminal OHLCV: volume rising with price, HH/HL, buy/sell > 1, new buyers rising.
 - `exit.py` - ladder (25% @2.5x, 25% @5x, 20% @10x) + trailing stop (breakeven at +65%, trail 30% from peak, never widens), persisted to `exit_state.json`.
@@ -18,7 +19,6 @@ Read-only scanner + confirmation-gated trader. Nothing spends SOL without your e
 ## Trigger a scan
 
 ```bash
-git clone https://github.com/KoinPedia/solana-meme-desk.git
 cd solana-meme-desk
 python3 scanner.py
 ```
@@ -47,4 +47,17 @@ Score 0-100, higher = riskier. 0-24 SAFE, 25-44 LOW RISK, 45-64 CAUTION, 65-84 H
 
 - Pump.fun's own frontend API now returns Cloudflare 403s to plain HTTP clients, so the scanner uses GeckoTerminal (free, same pool data) for discovery. RugCheck + DexScreener do the screening.
 - Rate limits: GeckoTerminal is 30 req/min on the free keyless tier. The scanner retries 429s with backoff.
-- Wallet: `trade.py` loads a Solana keypair from the path in the `KEYPAIR_PATH` env var (defaults to `./keypair.json`). Never commit a keypair or seed phrase. Balance is unverified. Do not fund until you confirm the address and amount.
+- Wallet: uses `/workspace/makefun/makefun-keypair.json`. Balance is unverified. Do not fund until you confirm the address and amount.
+
+## Risk disclaimer
+
+This is an experimental automated trading desk for Solana memecoins. Trading crypto tokens is high risk and you can lose money. Nothing here is financial advice.
+
+Hard limits are enforced in `trade.py`:
+
+- $100 maximum per trade
+- $15,000 maximum total spend per day (tracked in `daily_spend.json` with UTC rollover)
+
+Every trade requires a fresh YES approval from the operator in chat. The confirmation flag must match the mint, size and slippage exactly and expire after 5 minutes. If the YES is missing, expired or mismatched, the trade aborts with no spend. The wallet keypair must match the configured desk wallet or the trade aborts.
+
+Keys (Birdeye, Helius, wallet keypair) live only in a local `.env` and keypair file, never in code. Paper mode is the default: no real funds move until a YES-gated live trade runs.
