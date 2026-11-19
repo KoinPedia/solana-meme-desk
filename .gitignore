@@ -15,3 +15,5 @@ paper_state.json
 exit_state.json
 trades.csv
 confirmations/
+
+.env
