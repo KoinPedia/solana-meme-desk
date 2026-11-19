@@ -1,0 +1,17 @@
+# secrets / wallet material - never commit
+keypair.json
+*keypair*.json
+credentials.json
+api_key.txt
+*.pem
+*.key
+
+# runtime state
+__pycache__/
+*.pyc
+coordinator_state.json
+desk_stdout.log
+paper_state.json
+exit_state.json
+trades.csv
+confirmations/

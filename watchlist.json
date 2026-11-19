@@ -1,0 +1,1978 @@
+{
+  "generatedAt": "2026-11-18T22:35:42Z",
+  "count": 20,
+  "tokens": [
+    {
+      "name": "BM / TTWO",
+      "symbol": "BM",
+      "mint": "DtPLZksPtgQw8rcFLQgnjUdEp7j83xLax6UabqVppump",
+      "pool": "9UdweRGWQfmVL1zRyqasJRhMRBWr3osD9SwG3D32DeKd",
+      "dex": "pump-fun",
+      "priceUsd": "0.000003081",
+      "liquidityUsd": "2524.26654377924",
+      "volume24h": 107.85,
+      "marketCap": 3081.08,
+      "dexUrl": "https://dexscreener.com/solana/9udwergwqfmvl1zryqasjrhmrbwr3osd9swg3d32dekd",
+      "createdAt": "2026-11-18T22:34:16Z",
+      "creator": "EgQVrJRXoHv3hR73ErrNG2Q57wffvT4dFWjbhB25YhHn",
+      "totalHolders": 1,
+      "mintAuthority": null,
+      "freezeAuthority": null,
+      "rugcheck": {
+        "score_normalised": 1,
+        "risks": [],
+        "totalHolders": 1,
+        "mintAuthority": null,
+        "freezeAuthority": null,
+        "creator": "EgQVrJRXoHv3hR73ErrNG2Q57wffvT4dFWjbhB25YhHn",
+        "creatorBalance": 0,
+        "topHolders": [
+          {
+            "address": "CmuYZBmsG6WrEmZtG1UbswLE2f27AR8nc4MErkwqhfo",
+            "amount": 0,
+            "decimals": 0,
+            "pct": 0,
+            "uiAmount": 0,
+            "uiAmountString": "0",
+            "owner": "5kzuqUPq8g9voGTKMopKVNmP2ApbXWRaxEfkPx6r6JF7",
+            "insider": false
+          }
+        ],
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "hasTransferHook": false,
+        "hasPermanentDelegate": false,
+        "hasPausable": false,
+        "hasNonTransferable": false
+      },
+      "safetyScore": 85,
+      "verdict": "CRITICAL",
+      "flags": [
+        "very low liquidity $2,524",
+        "missing socials"
+      ],
+      "positives": [
+        "mint revoked",
+        "freeze revoked",
+        "top10 0.0%"
+      ],
+      "scannedAt": "2026-11-18T22:35:37Z"
+    },
+    {
+      "name": "BPCATE / SOL",
+      "symbol": "BPCATE",
+      "mint": "CELDJLjx5nkdFMdyKrmcPGw6b6VUmK3CLgiJCJskpump",
+      "pool": "6oXstdbe3BkWDJQ436zVZkp9V5UvPRhLXkNGcJhdhcHX",
+      "dex": "pump-fun",
+      "priceUsd": "0.0000007629",
+      "liquidityUsd": "1623.47671597781",
+      "volume24h": 20.77,
+      "marketCap": 762.95,
+      "dexUrl": "https://dexscreener.com/solana/6oxstdbe3bkwdjq436zvzkp9v5uvprhlxkngcjhdhchx",
+      "createdAt": "2026-11-18T22:34:32Z",
+      "creator": "87RD6rbSbE5DVBd1Zr9eWFmBP8XVCoukHp9kZr2YMKty",
+      "totalHolders": 8,
+      "mintAuthority": null,
+      "freezeAuthority": null,
+      "rugcheck": {
+        "score_normalised": 81,
+        "risks": [
+          "Creator history of rugged tokens",
+          "Single holder ownership"
+        ],
+        "totalHolders": 8,
+        "mintAuthority": null,
+        "freezeAuthority": null,
+        "creator": "87RD6rbSbE5DVBd1Zr9eWFmBP8XVCoukHp9kZr2YMKty",
+        "creatorBalance": 0,
+        "topHolders": [
+          {
+            "address": "2HoWiaXcwZ312Emck34XmSc8sJsRQsUHgP8RfJt7hFSe",
+            "amount": 1122839690039095,
+            "decimals": 6,
+            "pct": 56.141984501954745,
+            "uiAmount": 1122839690.039095,
+            "uiAmountString": "1122839690.039095",
+            "owner": "6oXstdbe3BkWDJQ436zVZkp9V5UvPRhLXkNGcJhdhcHX",
+            "insider": false
+          },
+          {
+            "address": "91eiXczf5S3rbPTLnBzbeZKVriPn9oL5j9PHqLq6KDdu",
+            "amount": 739191791591750,
+            "decimals": 6,
+            "pct": 36.9595895795875,
+            "uiAmount": 739191791.59175,
+            "uiAmountString": "739191791.59175",
+            "owner": "BwWK17cbHxwWBKZkUYvzxLcNQ1YVyaFezduWbtm2de6s",
+            "insider": false
+          },
+          {
+            "address": "7zwZxnoipcJLWKT3j4Rhp8GtdafEzzMnx2gctiD9TgVn",
+            "amount": 104297083470114,
+            "decimals": 6,
+            "pct": 5.2148541735057,
+            "uiAmount": 104297083.470114,
+            "uiAmountString": "104297083.470114",
+            "owner": "87RD6rbSbE5DVBd1Zr9eWFmBP8XVCoukHp9kZr2YMKty",
+            "insider": false
+          },
+          {
+            "address": "BYx1HgBBiVAXMM9xTj4XbcQywawnxNKqmW731gJPPJDe",
+            "amount": 32787271330001,
+            "decimals": 6,
+            "pct": 1.6393635665000499,
+            "uiAmount": 32787271.330001,
+            "uiAmountString": "32787271.330001",
+            "owner": "3hfwEoPN7ZLeMmKiBmSoTdh5xVFmYw2929QmmABhgEsx",
+            "insider": false
+          },
+          {
+            "address": "B7HMm6HftCTX48jpQpDHU21xWw1tV3v8Ch6PbYymz3p8",
+            "amount": 884163569040,
+            "decimals": 6,
+            "pct": 0.044208178452,
+            "uiAmount": 884163.56904,
+            "uiAmountString": "884163.56904",
+            "owner": "3AQdXebpBNc27ALQLd1ytey2M63wh2FtTRsT5Ym8T4XC",
+            "insider": false
+          },
+          {
+            "address": "4BRdTDmueGaMXQjUNikC8c2cSWqejMahBPzUAnkzb8bG",
+            "amount": 0,
+            "decimals": 6,
+            "pct": 0,
+            "uiAmount": 0,
+            "uiAmountString": "0",
+            "owner": "FKii4NJqdBCp9dXxnV9gMixytF2jYs7ZCRRfaVpdjsnD",
+            "insider": false
+          },
+          {
+            "address": "932ectZEKvPMbnGYBpeFxUXHx6Fao6T3zdRGHyTuGEec",
+            "amount": 0,
+            "decimals": 6,
+            "pct": 0,
+            "uiAmount": 0,
+            "uiAmountString": "0",
+            "owner": "6pJph9v6nRTAnCocVimDs9vq6xsL7Y678i6pxL4mDbKE",
+            "insider": false
+          },
+          {
+            "address": "BhyJPFEArekUmQidD1f5GZTSBofctnJbZHeM4ZEix8GQ",
+            "amount": 0,
+            "decimals": 6,
+            "pct": 0,
+            "uiAmount": 0,
+            "uiAmountString": "0",
+            "owner": "9nGvFAieCV759NB4sTfKAXVspfFgWkQYuHKGRfv6vFVw",
+            "insider": false
+          }
+        ],
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "hasTransferHook": false,
+        "hasPermanentDelegate": false,
+        "hasPausable": false,
+        "hasNonTransferable": false
+      },
+      "safetyScore": 100,
+      "verdict": "CRITICAL",
+      "flags": [
+        "very low liquidity $1,623",
+        "top-heavy concentration 100.0%",
+        "rugcheck: Creator history of rugged tokens",
+        "rugcheck: Single holder ownership",
+        "missing socials"
+      ],
+      "positives": [
+        "mint revoked",
+        "freeze revoked"
+      ],
+      "scannedAt": "2026-11-18T22:35:25Z"
+    },
+    {
+      "name": "$drchip / SOL",
+      "symbol": "$drchip",
+      "mint": "2NhVBzPTg2VLzWxD9yyfbJe4S3HjkmU9NbXX7oW6pump",
+      "pool": "77Z9PhP1A36XnBrgCJi7EP5zTEUEBH9bvxTESNMgzFVL",
+      "dex": "pump-fun",
+      "priceUsd": "0.0000028039252946620065955404984590243326087373187461627250090085038",
+      "liquidityUsd": "1760.93302437479",
+      "volume24h": null,
+      "marketCap": null,
+      "dexUrl": null,
+      "createdAt": "2026-11-18T22:34:27Z",
+      "creator": "5ge6zntZo7ZDHqBMtJx35CV8z2XfMbG5M61CDw8uRf5k",
+      "totalHolders": 5,
+      "mintAuthority": null,
+      "freezeAuthority": null,
+      "rugcheck": {
+        "score_normalised": 81,
+        "risks": [
+          "Creator history of rugged tokens",
+          "Single holder ownership"
+        ],
+        "totalHolders": 5,
+        "mintAuthority": null,
+        "freezeAuthority": null,
+        "creator": "5ge6zntZo7ZDHqBMtJx35CV8z2XfMbG5M61CDw8uRf5k",
+        "creatorBalance": 0,
+        "topHolders": [
+          {
+            "address": "Tqg3iYaSTC66NgSkyfNVCZknx3wjnq2pvwAJGeAGwxf",
+            "amount": 1000585637239801,
+            "decimals": 6,
+            "pct": 50.02928186199005,
+            "uiAmount": 1000585637.239801,
+            "uiAmountString": "1000585637.239801",
+            "owner": "77Z9PhP1A36XnBrgCJi7EP5zTEUEBH9bvxTESNMgzFVL",
+            "insider": false
+          },
+          {
+            "address": "pnyyPDKAUh8NExqrWv3Xh3Hyfhq4VfaYexGvj4snifM",
+            "amount": 999414362619169,
+            "decimals": 6,
+            "pct": 49.97071813095845,
+            "uiAmount": 999414362.619169,
+            "uiAmountString": "999414362.619169",
+            "owner": "BwWK17cbHxwWBKZkUYvzxLcNQ1YVyaFezduWbtm2de6s",
+            "insider": false
+          },
+          {
+            "address": "12LywjiGG3AWq64VAkZZ5heP3Shaaqry2PeccsVSsvpf",
+            "amount": 141030,
+            "decimals": 6,
+            "pct": 7.0515e-09,
+            "uiAmount": 0.14103,
+            "uiAmountString": "0.14103",
+            "owner": "HGhccGfHWwoMdK8aP8LdUUpZhRJWRVcKgrFiqwCSUVfh",
+            "insider": false
+          },
+          {
+            "address": "BiUR5MmYxjyUXYUKLisdhZcjcxKDbygRqtKFAtyPm9AK",
+            "amount": 0,
+            "decimals": 6,
+            "pct": 0,
+            "uiAmount": 0,
+            "uiAmountString": "0",
+            "owner": "3AQdXebpBNc27ALQLd1ytey2M63wh2FtTRsT5Ym8T4XC",
+            "insider": false
+          },
+          {
+            "address": "Fgvq8ouHfDy72s7BvSZYTXiS9XVdLpYyHG9FJq6DBLhu",
+            "amount": 0,
+            "decimals": 6,
+            "pct": 0,
+            "uiAmount": 0,
+            "uiAmountString": "0",
+            "owner": "5ge6zntZo7ZDHqBMtJx35CV8z2XfMbG5M61CDw8uRf5k",
+            "insider": false
+          }
+        ],
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "hasTransferHook": false,
+        "hasPermanentDelegate": false,
+        "hasPausable": false,
+        "hasNonTransferable": false
+      },
+      "safetyScore": 100,
+      "verdict": "CRITICAL",
+      "flags": [
+        "very low liquidity $1,761",
+        "top-heavy concentration 100.0%",
+        "rugcheck: Creator history of rugged tokens",
+        "rugcheck: Single holder ownership",
+        "missing socials"
+      ],
+      "positives": [
+        "mint revoked",
+        "freeze revoked"
+      ],
+      "scannedAt": "2026-11-18T22:35:26Z"
+    },
+    {
+      "name": "SOULJA / SOL",
+      "symbol": "SOULJA",
+      "mint": "8Hzj5NvLiwWua1Qxr159Jeyk8KqfrET8hbiXyt8spump",
+      "pool": "Hd6W9FEi72kdUnJaVnZuag57JQagsaSpucFL6QuUjLcU",
+      "dex": "pump-fun",
+      "priceUsd": "0.000005197",
+      "liquidityUsd": "3547.77467844232",
+      "volume24h": 1305.94,
+      "marketCap": 5197.92,
+      "dexUrl": "https://dexscreener.com/solana/hd6w9fei72kdunjavnzuag57jqagsaspucfl6quujlcu",
+      "createdAt": "2026-11-18T22:34:26Z",
+      "creator": "4WTRrtsHmv3qLn8wWAGfYUSnKjixt4sQHVfNEbuxZWRn",
+      "totalHolders": 26,
+      "mintAuthority": null,
+      "freezeAuthority": null,
+      "rugcheck": {
+        "score_normalised": 1,
+        "risks": [],
+        "totalHolders": 26,
+        "mintAuthority": null,
+        "freezeAuthority": null,
+        "creator": "4WTRrtsHmv3qLn8wWAGfYUSnKjixt4sQHVfNEbuxZWRn",
+        "creatorBalance": 0,
+        "topHolders": [
+          {
+            "address": "C7NM1UQQdQqyMCprAYUo4opzczoUijBhrSkgNXsxdEo8",
+            "amount": 973991454220816,
+            "decimals": 6,
+            "pct": 97.3991454220816,
+            "uiAmount": 973991454.220816,
+            "uiAmountString": "973991454.220816",
+            "owner": "Hd6W9FEi72kdUnJaVnZuag57JQagsaSpucFL6QuUjLcU",
+            "insider": false
+          },
+          {
+            "address": "Eq3ouTRzTCqM9yN4TJ6ETbsDrsUE8kREAM5VtW7ZLVrp",
+            "amount": 19476958190004,
+            "decimals": 6,
+            "pct": 1.9476958190004001,
+            "uiAmount": 19476958.190004,
+            "uiAmountString": "19476958.190004",
+            "owner": "BUkpShoEWRiPckdFs3kzYGjBPfUhL6G39ufo84QeogPP",
+            "insider": false
+          },
+          {
+            "address": "CTfbmQTUgEvvyxybuocyX9JeQfiUboi45ApFYhF7bRzZ",
+            "amount": 5799628694180,
+            "decimals": 6,
+            "pct": 0.579962869418,
+            "uiAmount": 5799628.69418,
+            "uiAmountString": "5799628.69418",
+            "owner": "EMKY7r6UekmmR1hREwCaPy835tCDGXGCw8fqibybgqzc",
+            "insider": false
+          },
+          {
+            "address": "DoWswsw8ewe3t74znr9d8dTeZPTWioPMAM7iTxNQyfiY",
+            "amount": 410963046099,
+            "decimals": 6,
+            "pct": 0.041096304609900006,
+            "uiAmount": 410963.046099,
+            "uiAmountString": "410963.046099",
+            "owner": "CCcrXJxnJqLP5sgKVWB1XV2v64F8cX3198jB9H2VCa2g",
+            "insider": false
+          },
+          {
+            "address": "FE4hz6LweKvyXS6zdqQ8YwtwGVkMQb6iVSL6jMXXzkZE",
+            "amount": 320995848900,
+            "decimals": 6,
+            "pct": 0.032099584890000005,
+            "uiAmount": 320995.8489,
+            "uiAmountString": "320995.8489",
+            "owner": "GwytKDBpMiWLeQJKV83vW2DRuSw1GXzy9uT2VRbc4wx4",
+            "insider": false
+          },
+          {
+            "address": "9yoA6MdKxPYqwX8V7Cw7CoxWJ8VjNtLDgMAGSjK4ek1A",
+            "amount": 1,
+            "decimals": 6,
+            "pct": 1e-13,
+            "uiAmount": 1e-06,
+            "uiAmountString": "0.000001",
+            "owner": "92YrfaQSDkLKoqgV8ooKT237FDHtXNj5ScryDWxYkQcs",
+            "insider": false
+          },
+          {
+            "address": "13Rwup97nQEpXkPpsTHsx7BWbHTDBfNJddFKQVekQQfT",
+            "amount": 0,
+            "decimals": 6,
+            "pct": 0,
+            "uiAmount": 0,
+            "uiAmountString": "0",
+            "owner": "2G32YQoJd8qgmmUa4sVS4sXeJ52YKNswMFKKqDy6powK",
+            "insider": false
+          },
+          {
+            "address": "QE2wdFvR9VLgjPTtTZVwKcjPd1rLWtWtgJFmzb8JCon",
+            "amount": 0,
+            "decimals": 6,
+            "pct": 0,
+            "uiAmount": 0,
+            "uiAmountString": "0",
+            "owner": "3dizKd8YDAJGFw4BqAUDMBzm61dkHtMonxadvaDncwk7",
+            "insider": false
+          },
+          {
+            "address": "2YAh98jRxtoyspTY6F1e5qpc6VvXUv1LPPvTcL4YefBy",
+            "amount": 0,
+            "decimals": 6,
+            "pct": 0,
+            "uiAmount": 0,
+            "uiAmountString": "0",
+            "owner": "B8EVJr4HyetViNvJqBbJYHkrQm1o4NJXhumVZxX58iun",
+            "insider": false
+          },
+          {
+            "address": "2zH4bBqfpaHNfCnmYNfozMfRoBgHprTJd1ECn45rWKYo",
+            "amount": 0,
+            "decimals": 6,
+            "pct": 0,
+            "uiAmount": 0,
+            "uiAmountString": "0",
+            "owner": "7iyYn4gshakdEUkF2bfV4pU3oaYBmg9ktJwGW8kQ9z96",
+            "insider": false
+          }
+        ],
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "hasTransferHook": false,
+        "hasPermanentDelegate": false,
+        "hasPausable": false,
+        "hasNonTransferable": false
+      },
+      "safetyScore": 100,
+      "verdict": "CRITICAL",
+      "flags": [
+        "very low liquidity $3,548",
+        "top-heavy concentration 100.0%",
+        "missing socials"
+      ],
+      "positives": [
+        "mint revoked",
+        "freeze revoked"
+      ],
+      "scannedAt": "2026-11-18T22:35:28Z"
+    },
+    {
+      "name": "TPH / USDC",
+      "symbol": "TPH",
+      "mint": "4Ju3L8rLGXZu3TzaUBQfAwqyhw7xvMGVQmwndSEopump",
+      "pool": "7sGZW57uygWvESopZbENNfPdqYzvhaNyZxmCmUsxRwQT",
+      "dex": "pump-fun",
+      "priceUsd": "0.000004454",
+      "liquidityUsd": "3525.19366438051",
+      "volume24h": 121.78,
+      "marketCap": 4454.37,
+      "dexUrl": "https://dexscreener.com/solana/7sgzw57uygwvesopzbennfpdqyzvhanyzxmcmusxrwqt",
+      "createdAt": "2026-11-18T22:34:26Z",
+      "creator": "6aB4tPnSZVQoUW6facrCFF1eoiJGiCH5aPaGTdRkCFmA",
+      "totalHolders": 5,
+      "mintAuthority": null,
+      "freezeAuthority": null,
+      "rugcheck": {
+        "score_normalised": 1,
+        "risks": [],
+        "totalHolders": 5,
+        "mintAuthority": null,
+        "freezeAuthority": null,
+        "creator": "6aB4tPnSZVQoUW6facrCFF1eoiJGiCH5aPaGTdRkCFmA",
+        "creatorBalance": 0,
+        "topHolders": [
+          {
+            "address": "HBs9QQhPAFPTGj8nqpYJLJUTftn4Kw9Nbv8KReYGgJwu",
+            "amount": 943802840847303,
+            "decimals": 6,
+            "pct": 94.3802840847303,
+            "uiAmount": 943802840.847303,
+            "uiAmountString": "943802840.847303",
+            "owner": "7sGZW57uygWvESopZbENNfPdqYzvhaNyZxmCmUsxRwQT",
+            "insider": false
+          },
+          {
+            "address": "6HmWfbg4rQzNLkcBqxXnbUJR9VLxSABzYqQFQJsoHzWQ",
+            "amount": 30467619450767,
+            "decimals": 6,
+            "pct": 3.0467619450767,
+            "uiAmount": 30467619.450767,
+            "uiAmountString": "30467619.450767",
+            "owner": "6aB4tPnSZVQoUW6facrCFF1eoiJGiCH5aPaGTdRkCFmA",
+            "insider": false
+          },
+          {
+            "address": "9DzCdm9Y4GJ4Xi6NY77hrPq17sfPA8UZTToMS8jbW1QH",
+            "amount": 16471682849532,
+            "decimals": 6,
+            "pct": 1.6471682849532001,
+            "uiAmount": 16471682.849532,
+            "uiAmountString": "16471682.849532",
+            "owner": "Ca9uop1Qmobv8wizP5aM9ampmpGciEpikQ3NpBPcrFS5",
+            "insider": false
+          },
+          {
+            "address": "4t1rXSgS7tmQ4JkX9pSiKj8Vd56Ec53ku4DMcoaSg63V",
+            "amount": 7669865494763,
+            "decimals": 6,
+            "pct": 0.7669865494763001,
+            "uiAmount": 7669865.494763,
+            "uiAmountString": "7669865.494763",
+            "owner": "H9kuqGKNYgPFYCA17uUTkaqXGum7MK8y1GwbS7cxsjDg",
+            "insider": false
+          },
+          {
+            "address": "EdYVH2GzzuNYzDxLkHApa1D4BKEaBah5Bc3nKxQBJAbn",
+            "amount": 1587991357635,
+            "decimals": 6,
+            "pct": 0.1587991357635,
+            "uiAmount": 1587991.357635,
+            "uiAmountString": "1587991.357635",
+            "owner": "GqcvtL34xx4ffp2ziGtg11gh8JYFKVuzfw5jMmopD5Jz",
+            "insider": false
+          }
+        ],
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "hasTransferHook": false,
+        "hasPermanentDelegate": false,
+        "hasPausable": false,
+        "hasNonTransferable": false
+      },
+      "safetyScore": 100,
+      "verdict": "CRITICAL",
+      "flags": [
+        "very low liquidity $3,525",
+        "top-heavy concentration 100.0%",
+        "missing socials"
+      ],
+      "positives": [
+        "mint revoked",
+        "freeze revoked"
+      ],
+      "scannedAt": "2026-11-18T22:35:29Z"
+    },
+    {
+      "name": "GOON / TTWO",
+      "symbol": "GOON",
+      "mint": "F1kAcbDzYhj6e33h1424hKqsCQNnACzEshvDJmEDpump",
+      "pool": "8UuZkD5m96G1jiSo7XZB1ppkEMEmD67FPbiQWd9NPBJU",
+      "dex": "pump-fun",
+      "priceUsd": "0.00001301",
+      "liquidityUsd": "3855.5089",
+      "volume24h": 12986.8,
+      "marketCap": 13010.34,
+      "dexUrl": "https://dexscreener.com/solana/8uuzkd5m96g1jiso7xzb1ppkememd67fpbiqwd9npbju",
+      "createdAt": "2026-11-18T22:34:21Z",
+      "creator": "9YvbqPVhT8J4iH9bBdxipx9zsLvc5MtkWKiypyWFB7n8",
+      "totalHolders": 132,
+      "mintAuthority": null,
+      "freezeAuthority": null,
+      "rugcheck": {
+        "score_normalised": 1,
+        "risks": [],
+        "totalHolders": 132,
+        "mintAuthority": null,
+        "freezeAuthority": null,
+        "creator": "9YvbqPVhT8J4iH9bBdxipx9zsLvc5MtkWKiypyWFB7n8",
+        "creatorBalance": 0,
+        "topHolders": [
+          {
+            "address": "3apqEiZ27Tpj3UYphbj4nxCe8hB2rMEmJ41eJ6Vmz1E9",
+            "amount": 466696712591070,
+            "decimals": 6,
+            "pct": 46.669671259107,
+            "uiAmount": 448232189.134062,
+            "uiAmountString": "466696712.59107",
+            "owner": "8UuZkD5m96G1jiSo7XZB1ppkEMEmD67FPbiQWd9NPBJU",
+            "insider": false
+          },
+          {
+            "address": "AVmJ2njdZKsXvKC9MT6PzqdBZh9pFk6TTPUonUcy2mjk",
+            "amount": 34192608445244,
+            "decimals": 6,
+            "pct": 3.4192608445244,
+            "uiAmount": 34192608.445244,
+            "uiAmountString": "34192608.445244",
+            "owner": "edcow7o5VGsZEhkrFy21XuDfR3m3YWU9jq6RyjcczoP",
+            "insider": false
+          },
+          {
+            "address": "5DLbrYwM4XY7ZBPU4uREtBYcv1QH62zkxK9eju5B3rWc",
+            "amount": 33472926544227,
+            "decimals": 6,
+            "pct": 3.3472926544226995,
+            "uiAmount": 33472926.544227,
+            "uiAmountString": "33472926.544227",
+            "owner": "HZhCar35LKxULFq3rVRmF78r9m1eaMrDzw6d9KX2DwHe",
+            "insider": false
+          },
+          {
+            "address": "GQquXFwC9wo3Wfn4a2dNKwrXEEvN15Hny7fVApeeefZX",
+            "amount": 21868683615476,
+            "decimals": 6,
+            "pct": 2.1868683615476,
+            "uiAmount": 21868683.615476,
+            "uiAmountString": "21868683.615476",
+            "owner": "DcRZySJU9X5u1s1yjB22CoBXY5iUij2VGHUKGs3SuN2a",
+            "insider": false
+          },
+          {
+            "address": "8yXkSB4TTuyARqyQZPpe19KmBbQ4FCZwzT6GgWPj1c29",
+            "amount": 19828563920502,
+            "decimals": 6,
+            "pct": 1.9828563920502003,
+            "uiAmount": 19828563.920502,
+            "uiAmountString": "19828563.920502",
+            "owner": "pwZpq97vcUqG5r79PMYJ2rPdJeVfuqdTaxmNvj5KYMR",
+            "insider": false
+          },
+          {
+            "address": "GnxTH17y4SD2YU1CDQQTUCR2eLzYz8cmf12usLrBhm8v",
+            "amount": 18668958003038,
+            "decimals": 6,
+            "pct": 1.8668958003038,
+            "uiAmount": 18668958.003038,
+            "uiAmountString": "18668958.003038",
+            "owner": "48CJdmeUTepbTqyt4xLXk4qZpZrNgNb3j3SEbrc613su",
+            "insider": false
+          },
+          {
+            "address": "EoEdq5v39VkDBfLzSnQidmQy5DggjakGRTPuSfvz3tmv",
+            "amount": 17930124101708,
+            "decimals": 6,
+            "pct": 1.7930124101707998,
+            "uiAmount": 17930124.101708,
+            "uiAmountString": "17930124.101708",
+            "owner": "9djqYAbc8NNAwm3n4DR8TS5e1CMca4MRkWcsfzgrKUcf",
+            "insider": false
+          },
+          {
+            "address": "4TTKD91qAxtoxESgYBEFKpeGokSkJtUm12SdgLwngMUc",
+            "amount": 17554592977894,
+            "decimals": 6,
+            "pct": 1.7554592977894,
+            "uiAmount": 17554592.977894,
+            "uiAmountString": "17554592.977894",
+            "owner": "5oXzzQHk9pMzB2hSarqBsXWsiMazuR93hmfXjivb7wsG",
+            "insider": false
+          },
+          {
+            "address": "7APvSXcTECur4L5mnJEG1qzrUrbSZFTxf6PXGHxLN6t7",
+            "amount": 17136540003562,
+            "decimals": 6,
+            "pct": 1.7136540003562,
+            "uiAmount": 17136540.003562,
+            "uiAmountString": "17136540.003562",
+            "owner": "5S2tz134gc59GZ7nnvybpUnKAVC7KihsuPkTjjjFJWAN",
+            "insider": false
+          },
+          {
+            "address": "J5pKF5Twuhq8j5qjXZCSTuufdVHnXmcrqzazAnSkBjXh",
+            "amount": 16342880796935,
+            "decimals": 6,
+            "pct": 1.6342880796935002,
+            "uiAmount": 16342880.796935,
+            "uiAmountString": "16342880.796935",
+            "owner": "En8Tf6R4qFP2vidbAjFieaCDfnSBJNTsZTxFbwYSg92x",
+            "insider": false
+          }
+        ],
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "hasTransferHook": false,
+        "hasPermanentDelegate": false,
+        "hasPausable": false,
+        "hasNonTransferable": false
+      },
+      "safetyScore": 100,
+      "verdict": "CRITICAL",
+      "flags": [
+        "very low liquidity $3,856",
+        "top-heavy concentration 66.4%",
+        "missing socials"
+      ],
+      "positives": [
+        "mint revoked",
+        "freeze revoked"
+      ],
+      "scannedAt": "2026-11-18T22:35:30Z"
+    },
+    {
+      "name": "USS / SOL",
+      "symbol": "USS",
+      "mint": "HeBxxg15aUwzxFURXkSzaUvLVdSvMcXKHmuGxupSpump",
+      "pool": "E5smgNS8aiwDSiYa3LCYgUF4fDKYJbiorLosbscyUg19",
+      "dex": "pump-fun",
+      "priceUsd": "0.000002036",
+      "liquidityUsd": "1623.55310485928",
+      "volume24h": 14.38,
+      "marketCap": 2036.25,
+      "dexUrl": "https://dexscreener.com/solana/e5smgns8aiwdsiya3lcyguf4fdkyjbiorlosbscyug19",
+      "createdAt": "2026-11-18T22:34:21Z",
+      "creator": "3EbyYGMDEvhBE5VoNPDLHv8vFqAg98dwDDqZf5gj9Dyy",
+      "totalHolders": 2,
+      "mintAuthority": null,
+      "freezeAuthority": null,
+      "rugcheck": {
+        "score_normalised": 55,
+        "risks": [
+          "Creator history of rugged tokens",
+          "Single holder ownership"
+        ],
+        "totalHolders": 2,
+        "mintAuthority": null,
+        "freezeAuthority": null,
+        "creator": "3EbyYGMDEvhBE5VoNPDLHv8vFqAg98dwDDqZf5gj9Dyy",
+        "creatorBalance": 0,
+        "topHolders": [
+          {
+            "address": "5XPwqz7VBc1eSryocrVuzPvnuTeqE2z7vz46e4eVnGXe",
+            "amount": 1000000000000000,
+            "decimals": 6,
+            "pct": 50,
+            "uiAmount": 1000000000,
+            "uiAmountString": "1000000000",
+            "owner": "BwWK17cbHxwWBKZkUYvzxLcNQ1YVyaFezduWbtm2de6s",
+            "insider": false
+          },
+          {
+            "address": "BW3f6xHRf461PTMu76UrmhpxpdKQgaNQbGDqbc6m3oAM",
+            "amount": 1000000000000000,
+            "decimals": 6,
+            "pct": 50,
+            "uiAmount": 1000000000,
+            "uiAmountString": "1000000000",
+            "owner": "E5smgNS8aiwDSiYa3LCYgUF4fDKYJbiorLosbscyUg19",
+            "insider": false
+          }
+        ],
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "hasTransferHook": false,
+        "hasPermanentDelegate": false,
+        "hasPausable": false,
+        "hasNonTransferable": false
+      },
+      "safetyScore": 100,
+      "verdict": "CRITICAL",
+      "flags": [
+        "very low liquidity $1,624",
+        "top-heavy concentration 100.0%",
+        "rugcheck: Creator history of rugged tokens",
+        "rugcheck: Single holder ownership",
+        "missing socials"
+      ],
+      "positives": [
+        "mint revoked",
+        "freeze revoked"
+      ],
+      "scannedAt": "2026-11-18T22:35:31Z"
+    },
+    {
+      "name": "USS / SOL",
+      "symbol": "USS",
+      "mint": "HeQGRzLNptaCxM35Wr1eZEDeehMaFPGTcMwXT8xapump",
+      "pool": "7KVU4Uqtta63ZrJ2gp7mXnk58bfa5e9ci6GjDSnwjn5L",
+      "dex": "pump-fun",
+      "priceUsd": "0.000002036",
+      "liquidityUsd": "1623.55310485928",
+      "volume24h": 14.38,
+      "marketCap": 2036.25,
+      "dexUrl": "https://dexscreener.com/solana/7kvu4uqtta63zrj2gp7mxnk58bfa5e9ci6gjdsnwjn5l",
+      "createdAt": "2026-11-18T22:34:21Z",
+      "creator": "3EbyYGMDEvhBE5VoNPDLHv8vFqAg98dwDDqZf5gj9Dyy",
+      "totalHolders": 2,
+      "mintAuthority": null,
+      "freezeAuthority": null,
+      "rugcheck": {
+        "score_normalised": 55,
+        "risks": [
+          "Creator history of rugged tokens",
+          "Single holder ownership"
+        ],
+        "totalHolders": 2,
+        "mintAuthority": null,
+        "freezeAuthority": null,
+        "creator": "3EbyYGMDEvhBE5VoNPDLHv8vFqAg98dwDDqZf5gj9Dyy",
+        "creatorBalance": 0,
+        "topHolders": [
+          {
+            "address": "3z71pWbCFKRCniZhVoVpY9XKjdfBJGQNhYuXbjoE9Sre",
+            "amount": 1000000000000000,
+            "decimals": 6,
+            "pct": 50,
+            "uiAmount": 1000000000,
+            "uiAmountString": "1000000000",
+            "owner": "7KVU4Uqtta63ZrJ2gp7mXnk58bfa5e9ci6GjDSnwjn5L",
+            "insider": false
+          },
+          {
+            "address": "6zfTxnm6Gz7mpNvRffi42jKmTbwtcPQJESWEYpD9m7HZ",
+            "amount": 1000000000000000,
+            "decimals": 6,
+            "pct": 50,
+            "uiAmount": 1000000000,
+            "uiAmountString": "1000000000",
+            "owner": "BwWK17cbHxwWBKZkUYvzxLcNQ1YVyaFezduWbtm2de6s",
+            "insider": false
+          }
+        ],
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "hasTransferHook": false,
+        "hasPermanentDelegate": false,
+        "hasPausable": false,
+        "hasNonTransferable": false
+      },
+      "safetyScore": 100,
+      "verdict": "CRITICAL",
+      "flags": [
+        "very low liquidity $1,624",
+        "top-heavy concentration 100.0%",
+        "rugcheck: Creator history of rugged tokens",
+        "rugcheck: Single holder ownership",
+        "missing socials"
+      ],
+      "positives": [
+        "mint revoked",
+        "freeze revoked"
+      ],
+      "scannedAt": "2026-11-18T22:35:31Z"
+    },
+    {
+      "name": "USS / SOL",
+      "symbol": "USS",
+      "mint": "He8NueeuKXhPE8oQMrvW1GMGrjVrErUmnVgi9VE4pump",
+      "pool": "G1rsQYGc1sh37R4A1Qjr19jub2rJB7RwYTotwXMtnazs",
+      "dex": "pump-fun",
+      "priceUsd": "0.000001210",
+      "liquidityUsd": "983.826485556869",
+      "volume24h": 17.79,
+      "marketCap": 1210.5,
+      "dexUrl": "https://dexscreener.com/solana/g1rsqygc1sh37r4a1qjr19jub2rjb7rwytotwxmtnazs",
+      "createdAt": "2026-11-18T22:34:21Z",
+      "creator": "3EbyYGMDEvhBE5VoNPDLHv8vFqAg98dwDDqZf5gj9Dyy",
+      "totalHolders": 3,
+      "mintAuthority": null,
+      "freezeAuthority": null,
+      "rugcheck": {
+        "score_normalised": 53,
+        "risks": [
+          "Creator history of rugged tokens",
+          "Single holder ownership"
+        ],
+        "totalHolders": 3,
+        "mintAuthority": null,
+        "freezeAuthority": null,
+        "creator": "3EbyYGMDEvhBE5VoNPDLHv8vFqAg98dwDDqZf5gj9Dyy",
+        "creatorBalance": 0,
+        "topHolders": [
+          {
+            "address": "EmAFUcYkCsTAMqcWxMPruVCick6FK1bDFTZf385htnfH",
+            "amount": 1001390846418007,
+            "decimals": 6,
+            "pct": 50.069542320900354,
+            "uiAmount": 1001390846.418007,
+            "uiAmountString": "1001390846.418007",
+            "owner": "G1rsQYGc1sh37R4A1Qjr19jub2rJB7RwYTotwXMtnazs",
+            "insider": false
+          },
+          {
+            "address": "GYKqSeEUFSvfo8xBkRFfy9qQGRWHBkHQAwhPohCiwmY8",
+            "amount": 998609153581993,
+            "decimals": 6,
+            "pct": 49.930457679099646,
+            "uiAmount": 998609153.581993,
+            "uiAmountString": "998609153.581993",
+            "owner": "BwWK17cbHxwWBKZkUYvzxLcNQ1YVyaFezduWbtm2de6s",
+            "insider": false
+          },
+          {
+            "address": "CV4LKXgfsFVGf38N67KHzHXwc5bc3NwAWyFkLTeYPKF6",
+            "amount": 0,
+            "decimals": 6,
+            "pct": 0,
+            "uiAmount": 0,
+            "uiAmountString": "0",
+            "owner": "3EbyYGMDEvhBE5VoNPDLHv8vFqAg98dwDDqZf5gj9Dyy",
+            "insider": false
+          }
+        ],
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "hasTransferHook": false,
+        "hasPermanentDelegate": false,
+        "hasPausable": false,
+        "hasNonTransferable": false
+      },
+      "safetyScore": 100,
+      "verdict": "CRITICAL",
+      "flags": [
+        "very low liquidity $984",
+        "top-heavy concentration 100.0%",
+        "rugcheck: Creator history of rugged tokens",
+        "rugcheck: Single holder ownership",
+        "missing socials"
+      ],
+      "positives": [
+        "mint revoked",
+        "freeze revoked"
+      ],
+      "scannedAt": "2026-11-18T22:35:32Z"
+    },
+    {
+      "name": "CHAROC / SOL",
+      "symbol": "CHAROC",
+      "mint": "23W3RVef3dvB9f17tFSLWUH5ZeYNhteDXi8W2RTPpump",
+      "pool": "FzZeoTxdwh8519HuF4HTvXDxjnA6rPQVkjyqHimsJBnX",
+      "dex": "pump-fun",
+      "priceUsd": "0.000001166",
+      "liquidityUsd": "781.397694884117",
+      "volume24h": 500.84,
+      "marketCap": 1166.46,
+      "dexUrl": "https://dexscreener.com/solana/fzzeotxdwh8519huf4htvxdxjna6rpqvkjyqhimsjbnx",
+      "createdAt": "2026-11-18T22:34:20Z",
+      "creator": "G3rh7eHND7aYqdiZnAWHAWYVWdagwbgFHxypaFM9yXnU",
+      "totalHolders": 3,
+      "mintAuthority": null,
+      "freezeAuthority": null,
+      "rugcheck": {
+        "score_normalised": 81,
+        "risks": [
+          "Creator history of rugged tokens",
+          "Single holder ownership",
+          "High holder concentration"
+        ],
+        "totalHolders": 3,
+        "mintAuthority": null,
+        "freezeAuthority": null,
+        "creator": "G3rh7eHND7aYqdiZnAWHAWYVWdagwbgFHxypaFM9yXnU",
+        "creatorBalance": 0,
+        "topHolders": [
+          {
+            "address": "Govaotb6v3QSP8RvPsKzMyiaP1H969fdTZ8rjpKam5Ko",
+            "amount": 1019774528426540,
+            "decimals": 6,
+            "pct": 50.988726421327,
+            "uiAmount": 1019774528.42654,
+            "uiAmountString": "1019774528.42654",
+            "owner": "BwWK17cbHxwWBKZkUYvzxLcNQ1YVyaFezduWbtm2de6s",
+            "insider": false
+          },
+          {
+            "address": "8fRQZGmtsCvzXsQr5fT3Lu773AL3c2XFcMRUbAh89WtM",
+            "amount": 980225471573460,
+            "decimals": 6,
+            "pct": 49.011273578673,
+            "uiAmount": 980225471.57346,
+            "uiAmountString": "980225471.57346",
+            "owner": "FzZeoTxdwh8519HuF4HTvXDxjnA6rPQVkjyqHimsJBnX",
+            "insider": false
+          },
+          {
+            "address": "8xLqjbKygjRpv8dKmz5zDS9j1RD925zAc5fV9svSuKoC",
+            "amount": 0,
+            "decimals": 6,
+            "pct": 0,
+            "uiAmount": 0,
+            "uiAmountString": "0",
+            "owner": "G3rh7eHND7aYqdiZnAWHAWYVWdagwbgFHxypaFM9yXnU",
+            "insider": false
+          }
+        ],
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "hasTransferHook": false,
+        "hasPermanentDelegate": false,
+        "hasPausable": false,
+        "hasNonTransferable": false
+      },
+      "safetyScore": 100,
+      "verdict": "CRITICAL",
+      "flags": [
+        "very low liquidity $781",
+        "top-heavy concentration 100.0%",
+        "rugcheck: Creator history of rugged tokens",
+        "rugcheck: Single holder ownership",
+        "rugcheck: High holder concentration",
+        "missing socials"
+      ],
+      "positives": [
+        "mint revoked",
+        "freeze revoked"
+      ],
+      "scannedAt": "2026-11-18T22:35:33Z"
+    },
+    {
+      "name": "SOULJA / TTWO",
+      "symbol": "SOULJA",
+      "mint": "8KXGRaQhyMqxD6B7jy1kwKrv2Pg1vTDhoooYhvtbsoe9",
+      "pool": "BwMHrqGAUCqWyPSStbTZ8gZM9ofvw78LFMfcUmTtY6u",
+      "dex": "pump-fun",
+      "priceUsd": "0.000005838",
+      "liquidityUsd": "4011.6955",
+      "volume24h": 12714.98,
+      "marketCap": 5838.24,
+      "dexUrl": "https://dexscreener.com/solana/bwmhrqgaucqwypsstbtz8gzm9ofvw78lfmfcumtty6u",
+      "createdAt": "2026-11-18T22:34:19Z",
+      "creator": "Ye3BZPPisWXBRdsfgPmdgZbahvz2XoUyshWNMd3iRT7",
+      "totalHolders": 107,
+      "mintAuthority": null,
+      "freezeAuthority": null,
+      "rugcheck": {
+        "score_normalised": 1,
+        "risks": [],
+        "totalHolders": 107,
+        "mintAuthority": null,
+        "freezeAuthority": null,
+        "creator": "Ye3BZPPisWXBRdsfgPmdgZbahvz2XoUyshWNMd3iRT7",
+        "creatorBalance": 0,
+        "topHolders": [
+          {
+            "address": "2VgxUnnA9vwR5QrbDeXfufT5GPuVGjv76TjbvL7jeeen",
+            "amount": 871926804506370,
+            "decimals": 6,
+            "pct": 87.192680450637,
+            "uiAmount": 871926804.50637,
+            "uiAmountString": "871926804.50637",
+            "owner": "BwMHrqGAUCqWyPSStbTZ8gZM9ofvw78LFMfcUmTtY6u",
+            "insider": false
+          },
+          {
+            "address": "6zJnTeEvf6duoDQS3TGhapxE2ksMzX4M4QXdR5G5BQFe",
+            "amount": 19542909443730,
+            "decimals": 6,
+            "pct": 1.954290944373,
+            "uiAmount": 19542909.44373,
+            "uiAmountString": "19542909.44373",
+            "owner": "6HKkAgEaCFpRayCqfJ5RV5fGqpwGqq5NPsVzJXbd5Ltg",
+            "insider": false
+          },
+          {
+            "address": "Ac5eDZdWxGXaEkYudW2k6mh5oik6k7GfsxoHXV18CbHD",
+            "amount": 19535788979684,
+            "decimals": 6,
+            "pct": 1.9535788979684,
+            "uiAmount": 19535788.979684,
+            "uiAmountString": "19535788.979684",
+            "owner": "GydP1i2nX57f8LY4De9JFd1rtdfdNfh3k5b2c9KkwCWU",
+            "insider": false
+          },
+          {
+            "address": "CxhBL2ew5Tmzp9xCCNfxxTonyoxBt7mqEjgxD6rE7GpC",
+            "amount": 17278099361648,
+            "decimals": 6,
+            "pct": 1.7278099361648,
+            "uiAmount": 17278099.361648,
+            "uiAmountString": "17278099.361648",
+            "owner": "HfN9JFxwS89fERT8of2dt1it6G3P2ia5sJc5J8GkwU5k",
+            "insider": false
+          },
+          {
+            "address": "HJEFZRhZewnUnR8z2egK3wNNzmsLB63u3AXDPpWBtF7z",
+            "amount": 17209054430305,
+            "decimals": 6,
+            "pct": 1.7209054430305002,
+            "uiAmount": 17209054.430305,
+            "uiAmountString": "17209054.430305",
+            "owner": "DVqo3k4b1Q35FSEMx1hM7kkHVh4Ezu3drwxNTwFZE8G7",
+            "insider": false
+          },
+          {
+            "address": "BFBmsW233oF6Lykgw5KWjx6Qj4EMCSN1RKMwnPnQHUQx",
+            "amount": 17190064158278,
+            "decimals": 6,
+            "pct": 1.7190064158278,
+            "uiAmount": 17190064.158278,
+            "uiAmountString": "17190064.158278",
+            "owner": "FHGL93a95byonJbk8PzZFhCNuxDwgqRwUXcUkdkfeMNA",
+            "insider": false
+          },
+          {
+            "address": "GpD5kSSgMgTG7yXmTwH3ut1xsEdR4JFZraqszCY7sAqG",
+            "amount": 16443685711811,
+            "decimals": 6,
+            "pct": 1.6443685711810998,
+            "uiAmount": 16443685.711811,
+            "uiAmountString": "16443685.711811",
+            "owner": "3MvdJEq5vmCPemsufvg6yEGCNzFFs2Aypp4uWEY1bBW1",
+            "insider": false
+          },
+          {
+            "address": "7dBWjoEEv5ZYvG5BSwEiM3ZA6NLUWk18wCPABSzwRGwQ",
+            "amount": 11703268777564,
+            "decimals": 6,
+            "pct": 1.1703268777564,
+            "uiAmount": 11703268.777564,
+            "uiAmountString": "11703268.777564",
+            "owner": "7U7j4UNYV5a5AgaGo5kYNQUuc7t9eMDmTiGoYiAwh347",
+            "insider": false
+          },
+          {
+            "address": "hU54LKFgBKi4pti8ELxfYov9YMZPmMc4a79egsCsvVA",
+            "amount": 1891720358976,
+            "decimals": 6,
+            "pct": 0.18917203589759998,
+            "uiAmount": 1891720.358976,
+            "uiAmountString": "1891720.358976",
+            "owner": "FcB9XmWirnR7nkPCxztpJAfKoh1wfMuiF4QKcvmSzfJW",
+            "insider": false
+          },
+          {
+            "address": "8qt9w8uhZnsD3jBdW56Xt67XLj8DpQJXDaRiG7j4Yrjn",
+            "amount": 1769300927190,
+            "decimals": 6,
+            "pct": 0.176930092719,
+            "uiAmount": 1769300.92719,
+            "uiAmountString": "1769300.92719",
+            "owner": "hr45ir18tw8T31bA8fCTvhfn48bawgiGsp8iDRaqENA",
+            "insider": false
+          }
+        ],
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "hasTransferHook": false,
+        "hasPermanentDelegate": false,
+        "hasPausable": false,
+        "hasNonTransferable": false
+      },
+      "safetyScore": 100,
+      "verdict": "CRITICAL",
+      "flags": [
+        "very low liquidity $4,012",
+        "top-heavy concentration 99.4%",
+        "missing socials"
+      ],
+      "positives": [
+        "mint revoked",
+        "freeze revoked"
+      ],
+      "scannedAt": "2026-11-18T22:35:34Z"
+    },
+    {
+      "name": "LILFOOT / SOL",
+      "symbol": "LILFOOT",
+      "mint": "H2Jw9U1CNgNWQnYS7hWUo2JTAEpsoxo26LrLPyvrpump",
+      "pool": "6dKL7DZmcu6vEbPA7ArrwS83CaXq8e2rdX5tFJydaGwT",
+      "dex": "pump-fun",
+      "priceUsd": "0.000002038",
+      "liquidityUsd": "1619.0672",
+      "volume24h": 1.14,
+      "marketCap": 2038.4,
+      "dexUrl": "https://dexscreener.com/solana/6dkl7dzmcu6vebpa7arrws83caxq8e2rdx5tfjydagwt",
+      "createdAt": "2026-11-18T22:34:19Z",
+      "creator": "2dhwvprn7NyQsrrtnCkeHTtjqru1E4iWb6yFYV9PTBzH",
+      "totalHolders": 3,
+      "mintAuthority": null,
+      "freezeAuthority": null,
+      "rugcheck": {
+        "score_normalised": 1,
+        "risks": [],
+        "totalHolders": 3,
+        "mintAuthority": null,
+        "freezeAuthority": null,
+        "creator": "2dhwvprn7NyQsrrtnCkeHTtjqru1E4iWb6yFYV9PTBzH",
+        "creatorBalance": 0,
+        "topHolders": [
+          {
+            "address": "2YUnUtEBgU6LvCSPpfq7D61ea6wJn3YaLJDriJeXsRgH",
+            "amount": 999436212739486,
+            "decimals": 6,
+            "pct": 99.94362127402175,
+            "uiAmount": 999436212.739486,
+            "uiAmountString": "999436212.739486",
+            "owner": "6dKL7DZmcu6vEbPA7ArrwS83CaXq8e2rdX5tFJydaGwT",
+            "insider": false
+          },
+          {
+            "address": "ETLSFauQSSkoBcAwW9K4dFZBX1wQemUh2uLfeCU5nGib",
+            "amount": 563787259782,
+            "decimals": 6,
+            "pct": 0.05637872597824126,
+            "uiAmount": 563787.259782,
+            "uiAmountString": "563787.259782",
+            "owner": "3Tox9QzZWabJm1GPxzHgqfucJ3SzDAA5GnZAu413yDuq",
+            "insider": false
+          },
+          {
+            "address": "HvVed9qXRjR3DTW9Lkq8RZ2QgFPSPqjk8VGg3ZJdXzm3",
+            "amount": 0,
+            "decimals": 6,
+            "pct": 0,
+            "uiAmount": 0,
+            "uiAmountString": "0",
+            "owner": "2dhwvprn7NyQsrrtnCkeHTtjqru1E4iWb6yFYV9PTBzH",
+            "insider": false
+          }
+        ],
+        "tokenProgram": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+        "hasTransferHook": false,
+        "hasPermanentDelegate": false,
+        "hasPausable": false,
+        "hasNonTransferable": false
+      },
+      "safetyScore": 100,
+      "verdict": "CRITICAL",
+      "flags": [
+        "very low liquidity $1,619",
+        "top-heavy concentration 100.0%",
+        "missing socials"
+      ],
+      "positives": [
+        "mint revoked",
+        "freeze revoked"
+      ],
+      "scannedAt": "2026-11-18T22:35:35Z"
+    },
+    {
+      "name": "LeoniDa / SOL",
+      "symbol": "LeoniDa",
+      "mint": "5hRgr4tWaq5KUtrNqa74X3ctsfFAWVA7nt9tAm2xpump",
+      "pool": "3n8Ar8vvBLtcbH4Kd8dpqrUuSZK9tG9STozzDWMsrG3N",
+      "dex": "pump-fun",
+      "priceUsd": "0.000002056",
+      "liquidityUsd": "1626.2037",
+      "volume24h": 10.77,
+      "marketCap": 2056.38,
+      "dexUrl": "https://dexscreener.com/solana/3n8ar8vvbltcbh4kd8dpqruuszk9tg9stozzdwmsrg3n",
+      "createdAt": "2026-11-18T22:34:18Z",
+      "creator": "Gbn6cdKVXaT2gMwqZQFoLtSUkHzJMqPgAiGv5uus9w28",
+      "totalHolders": 2,
+      "mintAuthority": null,
+      "freezeAuthority": null,
+      "rugcheck": {
+        "score_normalised": 80,
+        "risks": [
+          "Creator history of rugged tokens"
+        ],
+        "totalHolders": 2,
+        "mintAuthority": null,
+        "freezeAuthority": null,
+        "creator": "Gbn6cdKVXaT2gMwqZQFoLtSUkHzJMqPgAiGv5uus9w28",
+        "creatorBalance": 0,
+        "topHolders": [
+          {
+            "address": "8jAcowP76B4p1XD8XEP17PC26Yqa9vZfSUpc62P8UmXY",
+            "amount": 994257532198897,
+            "decimals": 6,
+            "pct": 99.4257532198897,
+            "uiAmount": 994257532.198897,
+            "uiAmountString": "994257532.198897",
+            "owner": "3n8Ar8vvBLtcbH4Kd8dpqrUuSZK9tG9STozzDWMsrG3N",
+            "insider": false
+          },
+          {
+            "address": "44KbfAvZAkH6J8Pc6AkbFWpoZSLxupzN21nbjN9s3YUi",
+            "amount": 5742467801103,
+            "decimals": 6,
+            "pct": 0.5742467801103001,
+            "uiAmount": 5742467.801103,
+            "uiAmountString": "5742467.801103",
+            "owner": "Gbn6cdKVXaT2gMwqZQFoLtSUkHzJMqPgAiGv5uus9w28",
+            "insider": false
+          }
+        ],
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "hasTransferHook": false,
+        "hasPermanentDelegate": false,
+        "hasPausable": false,
+        "hasNonTransferable": false
+      },
+      "safetyScore": 100,
+      "verdict": "CRITICAL",
+      "flags": [
+        "very low liquidity $1,626",
+        "top-heavy concentration 100.0%",
+        "rugcheck: Creator history of rugged tokens",
+        "missing socials"
+      ],
+      "positives": [
+        "mint revoked",
+        "freeze revoked"
+      ],
+      "scannedAt": "2026-11-18T22:35:35Z"
+    },
+    {
+      "name": "CRAB36 / TTWO",
+      "symbol": "CRAB36",
+      "mint": "79epPDs1dLtqK1BaMqpznhMAS5aaWmzD85c8CYX6pump",
+      "pool": "6BxcdsndqQAmd6rf84aGRunmnaP3UkRNRpfgtn6eNP22",
+      "dex": "pump-fun",
+      "priceUsd": "0.000003088966230342304594123066434095778056026646631545652364364331",
+      "liquidityUsd": "2449.85911728448",
+      "volume24h": null,
+      "marketCap": null,
+      "dexUrl": "https://dexscreener.com/solana/6bxcdsndqqamd6rf84agrunmnap3ukrnrpfgtn6enp22",
+      "createdAt": "2026-11-18T22:34:17Z",
+      "creator": "2EEdRNUN2Qpku49Ege12B1ecK1n7orBFUrQZCBDKubvS",
+      "totalHolders": 2,
+      "mintAuthority": null,
+      "freezeAuthority": null,
+      "rugcheck": {
+        "score_normalised": 1,
+        "risks": [],
+        "totalHolders": 2,
+        "mintAuthority": null,
+        "freezeAuthority": null,
+        "creator": "2EEdRNUN2Qpku49Ege12B1ecK1n7orBFUrQZCBDKubvS",
+        "creatorBalance": 0,
+        "topHolders": [
+          {
+            "address": "BAa87diKRRrDAYy8ZgX7ngG3YDJUVfaZmpnzpBhE9fgx",
+            "amount": 997718193905173,
+            "decimals": 0,
+            "pct": 99.77181939051731,
+            "uiAmount": 997718193905173,
+            "uiAmountString": "997718193905173",
+            "owner": "6BxcdsndqQAmd6rf84aGRunmnaP3UkRNRpfgtn6eNP22",
+            "insider": false
+          },
+          {
+            "address": "2HAw2f7P719VAu6knnNkWZyqo7gmFyQfqDUgHZf6XRtG",
+            "amount": 2281806094827,
+            "decimals": 0,
+            "pct": 0.2281806094827,
+            "uiAmount": 2281806094827,
+            "uiAmountString": "2281806094827",
+            "owner": "GEvS7J76EQKUjbBPkvvgHf3tsLimT8yPxTZPii3V7tms",
+            "insider": false
+          }
+        ],
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "hasTransferHook": false,
+        "hasPermanentDelegate": false,
+        "hasPausable": false,
+        "hasNonTransferable": false
+      },
+      "safetyScore": 100,
+      "verdict": "CRITICAL",
+      "flags": [
+        "very low liquidity $2,450",
+        "top-heavy concentration 100.0%",
+        "missing socials"
+      ],
+      "positives": [
+        "mint revoked",
+        "freeze revoked"
+      ],
+      "scannedAt": "2026-11-18T22:35:36Z"
+    },
+    {
+      "name": "Streamoor / SOL",
+      "symbol": "Streamoor",
+      "mint": "ukZD86agjsqxuKU1jyykbYMoX5ivzF7DXkNQTXxVooF",
+      "pool": "55m6drmvoTGDTn1KjeLo9TKHLLnhvgw4WHmrQdeoZV6c",
+      "dex": "meteora-damm-v2",
+      "priceUsd": "0.000007170",
+      "liquidityUsd": 13583.63,
+      "volume24h": 9156.28,
+      "marketCap": 7170,
+      "dexUrl": "https://dexscreener.com/solana/55m6drmvotgdtn1kjelo9tkhllnhvgw4whmrqdeozv6c",
+      "createdAt": "2026-11-18T22:34:15Z",
+      "creator": null,
+      "totalHolders": 133,
+      "mintAuthority": null,
+      "freezeAuthority": null,
+      "rugcheck": {
+        "score_normalised": 52,
+        "risks": [
+          "Large Amount of LP Unlocked",
+          "Low amount of LP Providers"
+        ],
+        "totalHolders": 133,
+        "mintAuthority": null,
+        "freezeAuthority": null,
+        "creator": null,
+        "creatorBalance": 0,
+        "topHolders": [
+          {
+            "address": "ZMFDmgH2eVLpYR2Kgzr3pwDACv6jofXC3FQm5XMjR1k",
+            "amount": 925541412157581,
+            "decimals": 6,
+            "pct": 92.55414103064982,
+            "uiAmount": 925541412.157581,
+            "uiAmountString": "925541412.157581",
+            "owner": "HLnpSz9h2S4hiLQ43rnSD9XkcUThA7B8hQMKmDaiTLcC",
+            "insider": false
+          },
+          {
+            "address": "CVqhdgVBUhn1oa3wiAtnbdkzjR8bXW3KFBQgT5xdM9Gr",
+            "amount": 11711281979041,
+            "decimals": 6,
+            "pct": 1.1711281955618436,
+            "uiAmount": 11711281.979041,
+            "uiAmountString": "11711281.979041",
+            "owner": "B6ETUD1uV2eyGrsVHLSG1vWbD5cpF1VGz5cNeqyL3Cf5",
+            "insider": false
+          },
+          {
+            "address": "YWTNprHGW17ptZVLVrMGMuahd8SyYkHCAdaEovDqFc1",
+            "amount": 10344740926079,
+            "decimals": 6,
+            "pct": 1.0344740905389518,
+            "uiAmount": 10344740.926079,
+            "uiAmountString": "10344740.926079",
+            "owner": "42iJt9wVPgT4jZ12rL9FYymNVpYbuGhepL6k7Uuf7osg",
+            "insider": false
+          },
+          {
+            "address": "67NjwVPhJLSS3QqHX6pAnh3WJ6xa6JkTxYPBv18Hnriz",
+            "amount": 6859759051324,
+            "decimals": 6,
+            "pct": 0.6859759037604483,
+            "uiAmount": 6859759.051324,
+            "uiAmountString": "6859759.051324",
+            "owner": "GbdCQJFmtiuxdiySUa7SmYqKDEqTGFaUuRui7qQYnmip",
+            "insider": false
+          },
+          {
+            "address": "B1mMK9qnNe4qFETUpJQv8DT4FG9BMCwL8w2KzjfQcSXh",
+            "amount": 5620699163505,
+            "decimals": 6,
+            "pct": 0.5620699152263602,
+            "uiAmount": 5620699.163505,
+            "uiAmountString": "5620699.163505",
+            "owner": "31YAHVZ634NdR2Txe8sCmh7cdeFqvwxzy1mxczbsyDuM",
+            "insider": false
+          },
+          {
+            "address": "H9X9qEF96UXGPe3xdzCVqJve74ZvkztbzUt6nv4Ve41f",
+            "amount": 3668521633202,
+            "decimals": 6,
+            "pct": 0.36685216258649567,
+            "uiAmount": 3668521.633202,
+            "uiAmountString": "3668521.633202",
+            "owner": "GgtT1z7hyHVRzbfFuC1wddgxkGgTw3GM8uTDhMwjCQdD",
+            "insider": false
+          },
+          {
+            "address": "H4YbMbtar5uuAmKAXk6hrwXLAyVRHHaUMc3PVk4p6JXi",
+            "amount": 3586616516166,
+            "decimals": 6,
+            "pct": 0.3586616508992767,
+            "uiAmount": 3586616.516166,
+            "uiAmountString": "3586616.516166",
+            "owner": "6YdxxUwXabQ5TozTxU45ErEVwQNkjGPze1NFF45n7jzS",
+            "insider": false
+          },
+          {
+            "address": "9RJwHeYhPZ3iMpkmb4zKoH57Gnu7cU1egun653B6EvTS",
+            "amount": 3552794275068,
+            "decimals": 6,
+            "pct": 0.35527942679624114,
+            "uiAmount": 3552794.275068,
+            "uiAmountString": "3552794.275068",
+            "owner": "8trMsJQwAcji1oqLtWMAcdSz6jJouHCjtFWVx5pY3KH8",
+            "insider": false
+          },
+          {
+            "address": "Y1gyi7RkATvjdvy6VcKMqa8EPc3Hwu1KJ26GviAaCFV",
+            "amount": 3446569128990,
+            "decimals": 6,
+            "pct": 0.3446569122096862,
+            "uiAmount": 3446569.12899,
+            "uiAmountString": "3446569.12899",
+            "owner": "7zYAXd2izBk2wKXQDoU75raZUhS5YJYY9Mevzhe1smuw",
+            "insider": false
+          },
+          {
+            "address": "GydmhUsfVxUP1mQhmvcgoyPnUhzpebx2nmhwpeuwCTdn",
+            "amount": 3214908428839,
+            "decimals": 6,
+            "pct": 0.3214908422409183,
+            "uiAmount": 3214908.428839,
+            "uiAmountString": "3214908.428839",
+            "owner": "HHYM6ux9PaMLJXKaxV4B1XGpEV1qZ4z1h1rC8DfcBw86",
+            "insider": false
+          }
+        ],
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "hasTransferHook": false,
+        "hasPermanentDelegate": false,
+        "hasPausable": false,
+        "hasNonTransferable": false
+      },
+      "safetyScore": 100,
+      "verdict": "CRITICAL",
+      "flags": [
+        "low liquidity $13,584",
+        "top-heavy concentration 97.8%",
+        "rugcheck: Large Amount of LP Unlocked",
+        "rugcheck: Low amount of LP Providers",
+        "missing socials"
+      ],
+      "positives": [
+        "mint revoked",
+        "freeze revoked"
+      ],
+      "scannedAt": "2026-11-18T22:35:38Z"
+    },
+    {
+      "name": "GTA / SOL",
+      "symbol": "GTA",
+      "mint": "GX1Q3aZgsBUkjqcTe7jvRcBU1TQryqzoqjZHwpvjpump",
+      "pool": "E4eVhinHyiz4yF5ELqwaYy4mtsgN4wQmz3ZWPQZLcUGk",
+      "dex": "pump-fun",
+      "priceUsd": "0.000002037",
+      "liquidityUsd": "1698.9846",
+      "volume24h": 506.3,
+      "marketCap": 2037.56,
+      "dexUrl": "https://dexscreener.com/solana/e4evhinhyiz4yf5elqwayy4mtsgn4wqmz3zwpqzlcugk",
+      "createdAt": "2026-11-18T22:34:14Z",
+      "creator": "G8FHsofBSN4cLkQvnUiRq4jozTNCBFsALqwo7PAxhHEC",
+      "totalHolders": 6,
+      "mintAuthority": null,
+      "freezeAuthority": null,
+      "rugcheck": {
+        "score_normalised": 1,
+        "risks": [],
+        "totalHolders": 6,
+        "mintAuthority": null,
+        "freezeAuthority": null,
+        "creator": "G8FHsofBSN4cLkQvnUiRq4jozTNCBFsALqwo7PAxhHEC",
+        "creatorBalance": 0,
+        "topHolders": [
+          {
+            "address": "H7mMoxqhsNGnVLYtEdtD1KspanLWTHTmgsxnwMi9WGoW",
+            "amount": 999656221285823,
+            "decimals": 6,
+            "pct": 99.9656221285823,
+            "uiAmount": 999656221.285823,
+            "uiAmountString": "999656221.285823",
+            "owner": "E4eVhinHyiz4yF5ELqwaYy4mtsgN4wQmz3ZWPQZLcUGk",
+            "insider": false
+          },
+          {
+            "address": "9qQURVvCtWHGgqYwakZpYWcNR38nfDRr3zu6ADUjYwCF",
+            "amount": 343778714177,
+            "decimals": 6,
+            "pct": 0.034377871417700004,
+            "uiAmount": 343778.714177,
+            "uiAmountString": "343778.714177",
+            "owner": "Ao1HWwKWzn9GdzYVb7eLq36nr9dryFP3q8yqMYb2VfHH",
+            "insider": false
+          },
+          {
+            "address": "4GaRrPSRpttJ3bxyDQUepJiVdpWcJEy95qUzVGsmwPb2",
+            "amount": 0,
+            "decimals": 6,
+            "pct": 0,
+            "uiAmount": 0,
+            "uiAmountString": "0",
+            "owner": "AZ1eJ671AL1Rp1YPWBdBCVNFrRaGG26XNMZC2AP3wK18",
+            "insider": false
+          },
+          {
+            "address": "6g2LGPXLBTzYE3K8JKxLMbQcvkb4frPw5p8BN96MWsYd",
+            "amount": 0,
+            "decimals": 6,
+            "pct": 0,
+            "uiAmount": 0,
+            "uiAmountString": "0",
+            "owner": "GKd5EMzRhbprZXZfsbJczo4SrfF99XZWQA82bazaQr14",
+            "insider": false
+          },
+          {
+            "address": "7AmqeHtB4ARjpgKEMbnkxErK4ytVQFjp6CEfoJujvvGH",
+            "amount": 0,
+            "decimals": 6,
+            "pct": 0,
+            "uiAmount": 0,
+            "uiAmountString": "0",
+            "owner": "nnnLxEzVBJNaC7ZFCDeQTjFv4gCVGq1sS9Q6u6oPSUA",
+            "insider": false
+          },
+          {
+            "address": "C5o1HXbjRE8gdSUSaKCNjtUC89Sp4KKoWweCSHN8xo72",
+            "amount": 0,
+            "decimals": 6,
+            "pct": 0,
+            "uiAmount": 0,
+            "uiAmountString": "0",
+            "owner": "UKUjz5ES5GcMnnEL113WjyvBcJ6Gy7aBAx5ZpjdK3Si",
+            "insider": false
+          }
+        ],
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "hasTransferHook": false,
+        "hasPermanentDelegate": false,
+        "hasPausable": false,
+        "hasNonTransferable": false
+      },
+      "safetyScore": 100,
+      "verdict": "CRITICAL",
+      "flags": [
+        "very low liquidity $1,699",
+        "top-heavy concentration 100.0%",
+        "missing socials"
+      ],
+      "positives": [
+        "mint revoked",
+        "freeze revoked"
+      ],
+      "scannedAt": "2026-11-18T22:35:38Z"
+    },
+    {
+      "name": "$DEPO / SOL",
+      "symbol": "$DEPO",
+      "mint": "5kddZHRaajtLpDNyp2AV6zL2wfBR71tarDRoEKGopump",
+      "pool": "7ozvKiAtGHEX4JXQUiSJoRydCCknDTzf6WJL9SGetRXU",
+      "dex": "pump-fun",
+      "priceUsd": "0.0000007300",
+      "liquidityUsd": "807.8031",
+      "volume24h": 93.82,
+      "marketCap": 730.07,
+      "dexUrl": "https://dexscreener.com/solana/7ozvkiatghex4jxquisjorydcckndtzf6wjl9sgetrxu",
+      "createdAt": "2026-11-18T22:34:14Z",
+      "creator": "AbZ44pksVLpLqUZtWiGwG23NNHwpLanMtr4ZPschZWrM",
+      "totalHolders": 8,
+      "mintAuthority": null,
+      "freezeAuthority": null,
+      "rugcheck": {
+        "score_normalised": 43,
+        "risks": [
+          "Single holder ownership",
+          "High holder concentration"
+        ],
+        "totalHolders": 8,
+        "mintAuthority": null,
+        "freezeAuthority": null,
+        "creator": "AbZ44pksVLpLqUZtWiGwG23NNHwpLanMtr4ZPschZWrM",
+        "creatorBalance": 0,
+        "topHolders": [
+          {
+            "address": "FRpDpsVRtZzwZypjfU279dwReEwFznXfZWo6Qx9vCdEr",
+            "amount": 972057383910185,
+            "decimals": 6,
+            "pct": 48.60286919550925,
+            "uiAmount": 972057383.910185,
+            "uiAmountString": "972057383.910185",
+            "owner": "BwWK17cbHxwWBKZkUYvzxLcNQ1YVyaFezduWbtm2de6s",
+            "insider": false
+          },
+          {
+            "address": "AX9yda35bPGNAUBdT62rENhgDX6qDw5STpE9ACNF76MK",
+            "amount": 949818859773326,
+            "decimals": 6,
+            "pct": 47.490942988666305,
+            "uiAmount": 949818859.773326,
+            "uiAmountString": "949818859.773326",
+            "owner": "7ozvKiAtGHEX4JXQUiSJoRydCCknDTzf6WJL9SGetRXU",
+            "insider": false
+          },
+          {
+            "address": "572qUpbzbn4dFjxyQwZFhy4xKGPR7qNwPjvj3wG7JGhy",
+            "amount": 30499919603620,
+            "decimals": 6,
+            "pct": 1.524995980181,
+            "uiAmount": 30499919.60362,
+            "uiAmountString": "30499919.60362",
+            "owner": "3hfwEoPN7ZLeMmKiBmSoTdh5xVFmYw2929QmmABhgEsx",
+            "insider": false
+          },
+          {
+            "address": "28aJa7y5vHbeYNhRVWT16wEFjJJfc1pvgsd5hHjq7iCv",
+            "amount": 25796982688629,
+            "decimals": 6,
+            "pct": 1.28984913443145,
+            "uiAmount": 25796982.688629,
+            "uiAmountString": "25796982.688629",
+            "owner": "232oN4sAg4j7zsAyGvozF9r5vaLWtxrjPwfBpB9eDRXo",
+            "insider": false
+          },
+          {
+            "address": "7mMgrP6SqdXNwvRVjRuSeTKpZHABjAV3df12ynFGYLb5",
+            "amount": 2084306379050,
+            "decimals": 6,
+            "pct": 0.1042153189525,
+            "uiAmount": 2084306.37905,
+            "uiAmountString": "2084306.37905",
+            "owner": "AbZ44pksVLpLqUZtWiGwG23NNHwpLanMtr4ZPschZWrM",
+            "insider": false
+          },
+          {
+            "address": "6RkXfWNF6vw3aVcM9YMjFp7F3FM8Qfq8yyoPQo68bLzq",
+            "amount": 0,
+            "decimals": 6,
+            "pct": 0,
+            "uiAmount": 0,
+            "uiAmountString": "0",
+            "owner": "6pJph9v6nRTAnCocVimDs9vq6xsL7Y678i6pxL4mDbKE",
+            "insider": false
+          },
+          {
+            "address": "6jkuH5nwV1jV4AKtWao3Sv7gdabuF7uHhjmwK8DVF145",
+            "amount": 0,
+            "decimals": 6,
+            "pct": 0,
+            "uiAmount": 0,
+            "uiAmountString": "0",
+            "owner": "4TyZ1YujutdsVgKYkzdLZLUT2RjvRqg4HWUw8WHVjpYP",
+            "insider": false
+          },
+          {
+            "address": "DVUUHR6NtQsXk4Uxn5b4fkuoCtzrqeedNnhNwwSFyDBK",
+            "amount": 0,
+            "decimals": 6,
+            "pct": 0,
+            "uiAmount": 0,
+            "uiAmountString": "0",
+            "owner": "2pLBzo3tbSzBDbW5JANG87jZJYUkrfLoQXTreQ6uYPmN",
+            "insider": false
+          },
+          {
+            "address": "HveGJEsN4LoA3jbK5jdcE53tF9j4pSNoMkUY7GsbKeP9",
+            "amount": 0,
+            "decimals": 6,
+            "pct": 0,
+            "uiAmount": 0,
+            "uiAmountString": "0",
+            "owner": "DZkXgWoc7bxL1A7M92d34RMYq49ZHH7bJmQTCNx87eP2",
+            "insider": false
+          }
+        ],
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "hasTransferHook": false,
+        "hasPermanentDelegate": false,
+        "hasPausable": false,
+        "hasNonTransferable": false
+      },
+      "safetyScore": 100,
+      "verdict": "CRITICAL",
+      "flags": [
+        "very low liquidity $808",
+        "top-heavy concentration 99.0%",
+        "rugcheck: Single holder ownership",
+        "rugcheck: High holder concentration",
+        "missing socials"
+      ],
+      "positives": [
+        "mint revoked",
+        "freeze revoked"
+      ],
+      "scannedAt": "2026-11-18T22:35:39Z"
+    },
+    {
+      "name": "PUMPFUN / SOL",
+      "symbol": "PUMPFUN",
+      "mint": "ApPJcXc2f67ufZE5EioWwHLpEhX8FRHpWQFRruPgpump",
+      "pool": "Ncufcm6P8vNMDcDPqdivbspKgdzaLYCauupg9KJaXXZ",
+      "dex": "pump-fun",
+      "priceUsd": "0.0000005286",
+      "liquidityUsd": "1080.5749",
+      "volume24h": 42.46,
+      "marketCap": 528.67,
+      "dexUrl": "https://dexscreener.com/solana/ncufcm6p8vnmdcdpqdivbspkgdzalycauupg9kjaxxz",
+      "createdAt": "2026-11-18T22:34:11Z",
+      "creator": "EYpRpc2qqqenLQ8zK7uU9c5ZJeQS7dPBGiHtcbgfoGTh",
+      "totalHolders": 3,
+      "mintAuthority": null,
+      "freezeAuthority": null,
+      "rugcheck": {
+        "score_normalised": 81,
+        "risks": [
+          "Creator history of rugged tokens",
+          "Single holder ownership"
+        ],
+        "totalHolders": 3,
+        "mintAuthority": null,
+        "freezeAuthority": null,
+        "creator": "EYpRpc2qqqenLQ8zK7uU9c5ZJeQS7dPBGiHtcbgfoGTh",
+        "creatorBalance": 0,
+        "topHolders": [
+          {
+            "address": "GyE5hwsiQtVEBzsNB1TLjupKJuFHLQzC1qq6b5p9WegF",
+            "amount": 1000481471385494,
+            "decimals": 6,
+            "pct": 50.0240735692747,
+            "uiAmount": 1000481471.385494,
+            "uiAmountString": "1000481471.385494",
+            "owner": "Ncufcm6P8vNMDcDPqdivbspKgdzaLYCauupg9KJaXXZ",
+            "insider": false
+          },
+          {
+            "address": "Fyg4L9icdDip21Hth2t6EFv5drbtNo1mVtDpdmVvRrdw",
+            "amount": 999518528614506,
+            "decimals": 6,
+            "pct": 49.975926430725295,
+            "uiAmount": 999518528.614506,
+            "uiAmountString": "999518528.614506",
+            "owner": "BwWK17cbHxwWBKZkUYvzxLcNQ1YVyaFezduWbtm2de6s",
+            "insider": false
+          },
+          {
+            "address": "2zB9iEQ3RmFTw49b1inxE9TcWhgP8DEKa6182wVcxeGH",
+            "amount": 0,
+            "decimals": 6,
+            "pct": 0,
+            "uiAmount": 0,
+            "uiAmountString": "0",
+            "owner": "EYpRpc2qqqenLQ8zK7uU9c5ZJeQS7dPBGiHtcbgfoGTh",
+            "insider": false
+          }
+        ],
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "hasTransferHook": false,
+        "hasPermanentDelegate": false,
+        "hasPausable": false,
+        "hasNonTransferable": false
+      },
+      "safetyScore": 100,
+      "verdict": "CRITICAL",
+      "flags": [
+        "very low liquidity $1,081",
+        "top-heavy concentration 100.0%",
+        "rugcheck: Creator history of rugged tokens",
+        "rugcheck: Single holder ownership",
+        "missing socials"
+      ],
+      "positives": [
+        "mint revoked",
+        "freeze revoked"
+      ],
+      "scannedAt": "2026-11-18T22:35:40Z"
+    },
+    {
+      "name": "$Marly / SOL",
+      "symbol": "$Marly",
+      "mint": "FdHkqTefeCYHYgyi8dPSNWsVqCGFfUwxdaKUM7capump",
+      "pool": "EVeR7V8nc4cy31ENedBDLk8bitZPsy6eTXhdwpaWMHbs",
+      "dex": "pump-fun",
+      "priceUsd": "0.000003194",
+      "liquidityUsd": "2530.488",
+      "volume24h": 29.7,
+      "marketCap": 3194.11,
+      "dexUrl": "https://dexscreener.com/solana/ever7v8nc4cy31enedbdlk8bitzpsy6etxhdwpawmhbs",
+      "createdAt": "2026-11-18T22:34:10Z",
+      "creator": "13XfHNQTeQ4yMkk7SX5rWTdfW8PDkYCB7hgkGCxJrZ8N",
+      "totalHolders": 3,
+      "mintAuthority": null,
+      "freezeAuthority": null,
+      "rugcheck": {
+        "score_normalised": 81,
+        "risks": [
+          "Creator history of rugged tokens",
+          "Single holder ownership",
+          "High holder concentration"
+        ],
+        "totalHolders": 3,
+        "mintAuthority": null,
+        "freezeAuthority": null,
+        "creator": "13XfHNQTeQ4yMkk7SX5rWTdfW8PDkYCB7hgkGCxJrZ8N",
+        "creatorBalance": 0,
+        "topHolders": [
+          {
+            "address": "fKVAc6YYeJDU1A98TA5td1HJckxcKAWQsz8wge9DCTb",
+            "amount": 1001753485285044,
+            "decimals": 6,
+            "pct": 50.0876742642522,
+            "uiAmount": 1001753485.285044,
+            "uiAmountString": "1001753485.285044",
+            "owner": "BwWK17cbHxwWBKZkUYvzxLcNQ1YVyaFezduWbtm2de6s",
+            "insider": false
+          },
+          {
+            "address": "CMtsy1A2bF7HJkPEVCftBfWstsRgzoDKtSud5f1bFrZo",
+            "amount": 998246514714956,
+            "decimals": 6,
+            "pct": 49.9123257357478,
+            "uiAmount": 998246514.714956,
+            "uiAmountString": "998246514.714956",
+            "owner": "EVeR7V8nc4cy31ENedBDLk8bitZPsy6eTXhdwpaWMHbs",
+            "insider": false
+          },
+          {
+            "address": "zhR4Dfe4QJirTHf1jJEaH51HUXTaZwtkUWe3zWubbL9",
+            "amount": 0,
+            "decimals": 6,
+            "pct": 0,
+            "uiAmount": 0,
+            "uiAmountString": "0",
+            "owner": "13XfHNQTeQ4yMkk7SX5rWTdfW8PDkYCB7hgkGCxJrZ8N",
+            "insider": false
+          }
+        ],
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "hasTransferHook": false,
+        "hasPermanentDelegate": false,
+        "hasPausable": false,
+        "hasNonTransferable": false
+      },
+      "safetyScore": 100,
+      "verdict": "CRITICAL",
+      "flags": [
+        "very low liquidity $2,530",
+        "top-heavy concentration 100.0%",
+        "rugcheck: Creator history of rugged tokens",
+        "rugcheck: Single holder ownership",
+        "rugcheck: High holder concentration",
+        "missing socials"
+      ],
+      "positives": [
+        "mint revoked",
+        "freeze revoked"
+      ],
+      "scannedAt": "2026-11-18T22:35:41Z"
+    },
+    {
+      "name": "LMAO / SOL",
+      "symbol": "LMAO",
+      "mint": "FoEKBW98oXo3XE2B6xSj4PtgNYuKnkaXRaAedd6Upump",
+      "pool": "2aMqV4jDcm11unfYUEa3rnviCfwviRRZvcADucaBqckV",
+      "dex": "pump-fun",
+      "priceUsd": "0.000002378",
+      "liquidityUsd": "1621.3715",
+      "volume24h": 22.91,
+      "marketCap": 2378.89,
+      "dexUrl": "https://dexscreener.com/solana/2amqv4jdcm11unfyuea3rnvicfwvirrzvcaducabqckv",
+      "createdAt": "2026-11-18T22:34:10Z",
+      "creator": "663Qb4YCR3WKRiRU4bAvVmG4aZzQe7rdaAk89b2zpbJQ",
+      "totalHolders": 4,
+      "mintAuthority": null,
+      "freezeAuthority": null,
+      "rugcheck": {
+        "score_normalised": 43,
+        "risks": [
+          "Single holder ownership",
+          "High holder concentration"
+        ],
+        "totalHolders": 4,
+        "mintAuthority": null,
+        "freezeAuthority": null,
+        "creator": "663Qb4YCR3WKRiRU4bAvVmG4aZzQe7rdaAk89b2zpbJQ",
+        "creatorBalance": 0,
+        "topHolders": [
+          {
+            "address": "CXi8niXt3kNuXAonmdM3nDx1x321ygM3n7LYAidM6V2C",
+            "amount": 999974526924189,
+            "decimals": 6,
+            "pct": 49.99872634620945,
+            "uiAmount": 999974526.924189,
+            "uiAmountString": "999974526.924189",
+            "owner": "BwWK17cbHxwWBKZkUYvzxLcNQ1YVyaFezduWbtm2de6s",
+            "insider": false
+          },
+          {
+            "address": "6fys3RRjCg8NU8K4Q1xPM2TRjMQrdW9PEW4QasvYDi4t",
+            "amount": 997908880924494,
+            "decimals": 6,
+            "pct": 49.8954440462247,
+            "uiAmount": 997908880.924494,
+            "uiAmountString": "997908880.924494",
+            "owner": "2aMqV4jDcm11unfYUEa3rnviCfwviRRZvcADucaBqckV",
+            "insider": false
+          },
+          {
+            "address": "78745rvyhiEU1KG1jaLwjVuQKUdtubZ5tabgCiHN2GdS",
+            "amount": 2084769123643,
+            "decimals": 6,
+            "pct": 0.10423845618215001,
+            "uiAmount": 2084769.123643,
+            "uiAmountString": "2084769.123643",
+            "owner": "663Qb4YCR3WKRiRU4bAvVmG4aZzQe7rdaAk89b2zpbJQ",
+            "insider": false
+          },
+          {
+            "address": "7UGvAvkgeWdjHoQy9wuN2Q1jD1KqTeBZq1rn82mMsJLs",
+            "amount": 31823027674,
+            "decimals": 6,
+            "pct": 0.0015911513836999998,
+            "uiAmount": 31823.027674,
+            "uiAmountString": "31823.027674",
+            "owner": "2pLBzo3tbSzBDbW5JANG87jZJYUkrfLoQXTreQ6uYPmN",
+            "insider": false
+          }
+        ],
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "hasTransferHook": false,
+        "hasPermanentDelegate": false,
+        "hasPausable": false,
+        "hasNonTransferable": false
+      },
+      "safetyScore": 100,
+      "verdict": "CRITICAL",
+      "flags": [
+        "very low liquidity $1,621",
+        "top-heavy concentration 100.0%",
+        "rugcheck: Single holder ownership",
+        "rugcheck: High holder concentration",
+        "missing socials"
+      ],
+      "positives": [
+        "mint revoked",
+        "freeze revoked"
+      ],
+      "scannedAt": "2026-11-18T22:35:41Z"
+    }
+  ]
+}
